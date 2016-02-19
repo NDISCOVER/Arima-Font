@@ -18,17 +18,24 @@ code = "";
 name = DevaIMatras;
 }
 );
-copyright = "SIL Open Font License";
+copyright = "Copyright 2015 The Arima Project Authors (info@ndiscovered.com)";
 customParameters = (
 {
 name = fsType;
 value = (
-    3
 );
 },
 {
-name = "New Value";
-value = "New Parameter";
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = NDIS;
 }
 );
 date = "2015-07-03 17:03:13 +0000";
@@ -117,6 +124,40 @@ alignmentZones = (
 );
 ascender = 840;
 capHeight = 700;
+customParameters = (
+{
+name = typoAscender;
+value = "1073";
+},
+{
+name = typoDescender;
+value = "-560";
+},
+{
+name = typoLineGap;
+value = "0";
+},
+{
+name = winAscent;
+value = "1073";
+},
+{
+name = winDescent;
+value = "560";
+},
+{
+name = hheaAscender;
+value = "1073";
+},
+{
+name = hheaDescender;
+value = "-560";
+},
+{
+name = hheaLineGap;
+value = "0";
+}
+);
 descender = -430;
 guideLines = (
 {
@@ -173,8 +214,36 @@ ascender = 840;
 capHeight = 700;
 customParameters = (
 {
-name = "New Parameter";
-value = "New Value";
+name = typoAscender;
+value = "1073";
+},
+{
+name = typoDescender;
+value = "-560";
+},
+{
+name = typoLineGap;
+value = "0";
+},
+{
+name = winAscent;
+value = "1073";
+},
+{
+name = winDescent;
+value = "560";
+},
+{
+name = hheaAscender;
+value = "1073";
+},
+{
+name = hheaDescender;
+value = "-560";
+},
+{
+name = hheaLineGap;
+value = "0";
 }
 );
 descender = -430;
@@ -150450,13 +150519,25 @@ width = 600;
 );
 instances = (
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "-l 7 -r 28 -G 50 -x 13 -w "G" -I";
+}
+);
 interpolationWeight = 30;
 name = Thin;
 weightClass = Thin;
 },
 {
+customParameters = (
+{
+name = weightClass;
+value = "275";
+}
+);
 interpolationWeight = 45;
-name = "Extra Light";
+name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
@@ -150475,12 +150556,13 @@ weightClass = Medium;
 },
 {
 interpolationWeight = 126;
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
 {
 interpolationWeight = 137;
-name = "Extra Bold";
+name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
@@ -150516,7 +150598,7 @@ kerning = {
 };
 };
 };
-manufacturer = "&DISCOVER";
+manufacturer = NDISCOVER;
 manufacturerURL = www.ndiscover.com;
 unitsPerEm = 1000;
 userData = {

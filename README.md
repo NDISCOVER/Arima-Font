@@ -1,8 +1,9 @@
-**ARIMA TAMIL + MALAYALAM + TAMIL**
+Arima, a Tamil + Malayalam + Latin typeface family
+===================================================
 
-<i> WORK IN PROGRESS </i>
-
-A display font with soft edges and calligraphic feel would be the mains inspiration for the Tamil font design. It would have low contrast to allow good rendering on screen. Legibility will be always a concern but we will give it a lot of personality to be recognizable as a display font to be used in headlines, for brand names or similar uses on the web.
-Our primary goal is to create a popular design that creates engagement first and foremost with lay people but never lowering the quality of the design. 
-The weights will be tested on the low resolution phones to get the best possible result.
-We will use ttfautohint to hint the fonts. Starting from the first round of design testing, we will check its rendering on Windows, and comment on problems with the hinting in the project thread. 
+A display font with soft edges and calligraphic feel is the main inspiration for the Tamil type design. 
+It has a low contrast to allow good rendering on screen. 
+Legibility is always a central concern, but we gave this family a lot of personality to be recognizable as a display font to be used in headlines, brand names, and similar uses on the web. 
+Our primary goal was to create a design that will prove popular because it resonates with both casual and professional designers, and without ever lowering the quality of the design. 
+Each font in the family was extensively tested on low resolution phones and refined to work well as a web font in the mobile era. 
+From the very first round of design testing, each font was hinted with ttfautohint and refined for Windows users.
