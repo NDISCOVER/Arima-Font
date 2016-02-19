@@ -113,6 +113,38 @@ customParameters = (
 {
 name = shoulderHeight;
 value = "528";
+},
+{
+name = typoAscender;
+value = "1073";
+},
+{
+name = typoDescender;
+value = "-560";
+},
+{
+name = typoLineGap;
+value = "0";
+},
+{
+name = winAscent;
+value = "1073";
+},
+{
+name = winDescent;
+value = "560";
+},
+{
+name = hheaAscender;
+value = "1073";
+},
+{
+name = hheaDescender;
+value = "-560";
+},
+{
+name = hheaLineGap;
+value = "0";
 }
 );
 descender = -400;
@@ -174,6 +206,38 @@ customParameters = (
 {
 name = shoulderHeight;
 value = "548";
+},
+{
+name = typoAscender;
+value = "1073";
+},
+{
+name = typoDescender;
+value = "-560";
+},
+{
+name = typoLineGap;
+value = "0";
+},
+{
+name = winAscent;
+value = "1073";
+},
+{
+name = winDescent;
+value = "560";
+},
+{
+name = hheaAscender;
+value = "1073";
+},
+{
+name = hheaDescender;
+value = "-560";
+},
+{
+name = hheaLineGap;
+value = "0";
 }
 );
 descender = -400;
