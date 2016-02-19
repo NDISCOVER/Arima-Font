@@ -1,7 +1,4 @@
 {
-DisplayStrings = (
-"/halant-tamil"
-);
 copyright = "Copyright 2015 The Arima Project Authors (info@ndiscovered.com)";
 customParameters = (
 {
@@ -198947,18 +198944,18 @@ weightClass = Medium;
 {
 interpolationWeight = 126;
 isBold = 1;
+name = "Semi Bold";
+weightClass = SemiBold;
+},
+{
+interpolationWeight = 137;
 name = Bold;
 weightClass = Bold;
 },
 {
-interpolationWeight = 137;
-name = ExtraBold;
-weightClass = ExtraBold;
-},
-{
 interpolationWeight = 150;
-name = Black;
-weightClass = Black;
+name = "Extra Bold";
+weightClass = ExtraBold;
 }
 );
 kerning = {
