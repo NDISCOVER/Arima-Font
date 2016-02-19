@@ -150451,6 +150451,12 @@ width = 600;
 );
 instances = (
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "-l 7 -r 28 -G 50 -x 13 -w "G" -I";
+}
+);
 interpolationWeight = 30;
 name = Thin;
 weightClass = Thin;
