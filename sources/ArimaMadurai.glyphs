@@ -183,6 +183,9 @@ position = "{831, -12}";
 position = "{145, 772}";
 }
 );
+horizontalStems = (
+28
+);
 id = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 userData = {
 GSCornerRadius = 14;
@@ -190,6 +193,10 @@ GSOffsetHorizontal = 15;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 14;
 };
+verticalStems = (
+30,
+32
+);
 weight = Light;
 weightValue = 30;
 xHeight = 500;
@@ -278,6 +285,11 @@ id = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 userData = {
 GSCornerRadius = 23;
 };
+verticalStems = (
+60,
+146,
+150
+);
 weight = Bold;
 weightValue = 160;
 xHeight = 520;
@@ -808,7 +820,7 @@ unicode = 00C2;
 },
 {
 glyphname = Acircumflexacute;
-lastChange = "2016-02-19 13:21:58 +0000";
+lastChange = "2016-02-19 14:43:00 +0000";
 layers = (
 {
 components = (
@@ -821,7 +833,7 @@ transform = "{1, 0, 0, 1, -20, 188}";
 },
 {
 name = acutecomb.cap;
-transform = "{1, 0, 0, 1, 34, 293}";
+transform = "{1, 0, 0, 1, 34, 328}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -898,7 +910,7 @@ unicode = 1EAC;
 },
 {
 glyphname = Acircumflexgrave;
-lastChange = "2016-02-19 13:21:58 +0000";
+lastChange = "2016-02-19 14:43:00 +0000";
 layers = (
 {
 components = (
@@ -911,7 +923,7 @@ transform = "{1, 0, 0, 1, -20, 188}";
 },
 {
 name = gravecomb.cap;
-transform = "{1, 0, 0, 1, -86, 293}";
+transform = "{1, 0, 0, 1, -86, 328}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -943,7 +955,7 @@ unicode = 1EA6;
 },
 {
 glyphname = Acircumflexhookabove;
-lastChange = "2016-02-19 13:21:58 +0000";
+lastChange = "2016-02-19 14:43:00 +0000";
 layers = (
 {
 components = (
@@ -956,7 +968,7 @@ transform = "{1, 0, 0, 1, -20, 188}";
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 67, 293}";
+transform = "{1, 0, 0, 1, 67, 328}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -988,7 +1000,7 @@ unicode = 1EA8;
 },
 {
 glyphname = Acircumflextilde;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2016-02-19 14:43:00 +0000";
 layers = (
 {
 components = (
@@ -1001,7 +1013,7 @@ transform = "{1, 0, 0, 1, -20, 188}";
 },
 {
 name = tildecomb.cap;
-transform = "{1, 0, 0, 1, -26, 293}";
+transform = "{1, 0, 0, 1, -26, 328}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -3117,7 +3129,7 @@ unicode = 00CA;
 },
 {
 glyphname = Ecircumflexacute;
-lastChange = "2016-02-19 13:21:58 +0000";
+lastChange = "2016-02-19 14:43:00 +0000";
 layers = (
 {
 components = (
@@ -3130,7 +3142,7 @@ transform = "{1, 0, 0, 1, -24, 188}";
 },
 {
 name = acutecomb.cap;
-transform = "{1, 0, 0, 1, 30, 293}";
+transform = "{1, 0, 0, 1, 30, 328}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -3207,7 +3219,7 @@ unicode = 1EC6;
 },
 {
 glyphname = Ecircumflexgrave;
-lastChange = "2016-02-19 13:21:58 +0000";
+lastChange = "2016-02-19 14:43:00 +0000";
 layers = (
 {
 components = (
@@ -3220,7 +3232,7 @@ transform = "{1, 0, 0, 1, -24, 188}";
 },
 {
 name = gravecomb.cap;
-transform = "{1, 0, 0, 1, -90, 293}";
+transform = "{1, 0, 0, 1, -90, 328}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -3252,7 +3264,7 @@ unicode = 1EC0;
 },
 {
 glyphname = Ecircumflexhookabove;
-lastChange = "2016-02-19 13:21:58 +0000";
+lastChange = "2016-02-19 14:43:00 +0000";
 layers = (
 {
 components = (
@@ -3265,7 +3277,7 @@ transform = "{1, 0, 0, 1, -24, 188}";
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 63, 293}";
+transform = "{1, 0, 0, 1, 63, 328}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -3297,7 +3309,7 @@ unicode = 1EC2;
 },
 {
 glyphname = Ecircumflextilde;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2016-02-19 14:43:00 +0000";
 layers = (
 {
 components = (
@@ -3310,7 +3322,7 @@ transform = "{1, 0, 0, 1, -24, 188}";
 },
 {
 name = tildecomb.cap;
-transform = "{1, 0, 0, 1, -30, 293}";
+transform = "{1, 0, 0, 1, -30, 328}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -9076,7 +9088,7 @@ unicode = 00D4;
 },
 {
 glyphname = Ocircumflexacute;
-lastChange = "2016-02-19 13:21:58 +0000";
+lastChange = "2016-02-19 14:43:00 +0000";
 layers = (
 {
 components = (
@@ -9089,7 +9101,7 @@ transform = "{1, 0, 0, 1, 19, 188}";
 },
 {
 name = acutecomb.cap;
-transform = "{1, 0, 0, 1, 73, 293}";
+transform = "{1, 0, 0, 1, 73, 328}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -9166,7 +9178,7 @@ unicode = 1ED8;
 },
 {
 glyphname = Ocircumflexgrave;
-lastChange = "2016-02-19 13:21:58 +0000";
+lastChange = "2016-02-19 14:43:00 +0000";
 layers = (
 {
 components = (
@@ -9179,7 +9191,7 @@ transform = "{1, 0, 0, 1, 19, 188}";
 },
 {
 name = gravecomb.cap;
-transform = "{1, 0, 0, 1, -47, 293}";
+transform = "{1, 0, 0, 1, -47, 328}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -9211,7 +9223,7 @@ unicode = 1ED2;
 },
 {
 glyphname = Ocircumflexhookabove;
-lastChange = "2016-02-19 13:21:58 +0000";
+lastChange = "2016-02-19 14:43:00 +0000";
 layers = (
 {
 components = (
@@ -9224,7 +9236,7 @@ transform = "{1, 0, 0, 1, 19, 188}";
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 106, 293}";
+transform = "{1, 0, 0, 1, 106, 328}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -9256,7 +9268,7 @@ unicode = 1ED4;
 },
 {
 glyphname = Ocircumflextilde;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2016-02-19 14:43:00 +0000";
 layers = (
 {
 components = (
@@ -9269,7 +9281,7 @@ transform = "{1, 0, 0, 1, 19, 188}";
 },
 {
 name = tildecomb.cap;
-transform = "{1, 0, 0, 1, 13, 293}";
+transform = "{1, 0, 0, 1, 13, 328}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -176890,7 +176902,7 @@ width = 600;
 {
 color = 0;
 glyphname = circumflexcomb.cap;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2016-02-19 14:42:58 +0000";
 layers = (
 {
 anchors = (
@@ -176900,7 +176912,7 @@ position = "{300, 500}";
 },
 {
 name = top;
-position = "{300, 605}";
+position = "{300, 640}";
 }
 );
 background = {
