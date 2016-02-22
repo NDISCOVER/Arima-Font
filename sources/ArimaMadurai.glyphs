@@ -38,7 +38,7 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "lookup latn_comb {\012\011script latn;\012\011lookupflag 0;\012\011sub G tildecomb by G_tildecomb;\012\011sub g tildecomb by g_tildecomb;\012} latn_comb;\012\012lookup taml_comb {\012\011script taml;\012\011lookupflag 0;\012\011sub ka-tamil uMatra-tamil by ka_uMatra-tamil;\012\011sub ka-tamil uuMatra-tamil by ka_uuMatra-tamil;\012\011sub nga-tamil uuMatra-tamil by nga_uuMatra-tamil;\012\011sub ca-tamil uMatra-tamil by ca_uMatra-tamil;\012\011sub ca-tamil uuMatra-tamil by ca_uuMatra-tamil;\012\011sub nya-tamil uMatra-tamil by nya_uMatra-tamil;\012\011sub tta-tamil iMatra-tamil by tta_iMatra-tamil;\012\011sub tta-tamil iiMatra-tamil by tta_iiMatra-tamil;\012\011sub tta-tamil uMatra-tamil by tta_uMatra-tamil;\012\011sub tta-tamil uuMatra-tamil by tta_uuMatra-tamil;\012\011sub nna-tamil uMatra-tamil by nna_uMatra-tamil;\012\011sub ta-tamil uMatra-tamil by ta_uMatra-tamil;\012\011sub na-tamil uMatra-tamil by na_uMatra-tamil;\012\011sub nnna-tamil uMatra-tamil by nnna_uMatra-tamil;\012\011sub pa-tamil uuMatra-tamil by pa_uuMatra-tamil;\012\011sub ma-tamil uMatra-tamil by ma_uMatra-tamil;\012\011sub ma-tamil uuMatra-tamil by ma_uuMatra-tamil;\012\011sub ya-tamil uuMatra-tamil by ya_uuMatra-tamil;\012\011sub ra-tamil uMatra-tamil by ra_uMatra-tamil;\012\011sub ra-tamil uuMatra-tamil by ra_uuMatra-tamil;\012\011sub rra-tamil uMatra-tamil by rra_uMatra-tamil;\012\011sub la-tamil uMatra-tamil by la_uMatra-tamil;\012\011sub lla-tamil uMatra-tamil by lla_uMatra-tamil;\012\011sub lla-tamil uuMatra-tamil by lla_uuMatra-tamil;\012\011sub llla-tamil uMatra-tamil by llla_uMatra-tamil;\012\011sub llla-tamil uuMatra-tamil by llla_uuMatra-tamil;\012\011sub va-tamil uuMatra-tamil by va_uuMatra-tamil;\012} taml_comb;\012";
+code = "lookup ccmp_latn_1 {\012\011script latn;\012\011lookupflag 0;\012\011sub G tildecomb by G_tildecomb;\012\011sub g tildecomb by g_tildecomb;\012} ccmp_latn_1;\012\012lookup ccmp_latn_2 {\012\011script latn;\012\011lookupflag 0;\012\011sub G tildecomb by G_tildecomb;\012\011sub g tildecomb by g_tildecomb;\012} ccmp_latn_2;\012\012lookup ccmp_taml_1 {\012\011script taml;\012\011lookupflag 0;\012\011sub ka-tamil uMatra-tamil by ka_uMatra-tamil;\012\011sub ka-tamil uuMatra-tamil by ka_uuMatra-tamil;\012\011sub nga-tamil uuMatra-tamil by nga_uuMatra-tamil;\012\011sub ca-tamil uMatra-tamil by ca_uMatra-tamil;\012\011sub ca-tamil uuMatra-tamil by ca_uuMatra-tamil;\012\011sub nya-tamil uMatra-tamil by nya_uMatra-tamil;\012\011sub tta-tamil iMatra-tamil by tta_iMatra-tamil;\012\011sub tta-tamil iiMatra-tamil by tta_iiMatra-tamil;\012\011sub tta-tamil uMatra-tamil by tta_uMatra-tamil;\012\011sub tta-tamil uuMatra-tamil by tta_uuMatra-tamil;\012\011sub nna-tamil uMatra-tamil by nna_uMatra-tamil;\012\011sub ta-tamil uMatra-tamil by ta_uMatra-tamil;\012\011sub na-tamil uMatra-tamil by na_uMatra-tamil;\012\011sub nnna-tamil uMatra-tamil by nnna_uMatra-tamil;\012\011sub pa-tamil uuMatra-tamil by pa_uuMatra-tamil;\012\011sub ma-tamil uMatra-tamil by ma_uMatra-tamil;\012\011sub ma-tamil uuMatra-tamil by ma_uuMatra-tamil;\012\011sub ya-tamil uuMatra-tamil by ya_uuMatra-tamil;\012\011sub ra-tamil uMatra-tamil by ra_uMatra-tamil;\012\011sub ra-tamil uuMatra-tamil by ra_uuMatra-tamil;\012\011sub rra-tamil uMatra-tamil by rra_uMatra-tamil;\012\011sub la-tamil uMatra-tamil by la_uMatra-tamil;\012\011sub lla-tamil uMatra-tamil by lla_uMatra-tamil;\012\011sub lla-tamil uuMatra-tamil by lla_uuMatra-tamil;\012\011sub llla-tamil uMatra-tamil by llla_uMatra-tamil;\012\011sub llla-tamil uuMatra-tamil by llla_uuMatra-tamil;\012\011sub va-tamil uuMatra-tamil by va_uuMatra-tamil;\012} ccmp_taml_1;\012\012lookup ccmp_taml_2 {\012\011script taml;\012\011lookupflag 0;\012\011sub ka-tamil uMatra-tamil by ka_uMatra-tamil;\012\011sub ka-tamil uuMatra-tamil by ka_uuMatra-tamil;\012\011sub nga-tamil uuMatra-tamil by nga_uuMatra-tamil;\012\011sub ca-tamil uMatra-tamil by ca_uMatra-tamil;\012\011sub ca-tamil uuMatra-tamil by ca_uuMatra-tamil;\012\011sub nya-tamil uMatra-tamil by nya_uMatra-tamil;\012\011sub tta-tamil iMatra-tamil by tta_iMatra-tamil;\012\011sub tta-tamil iiMatra-tamil by tta_iiMatra-tamil;\012\011sub tta-tamil uMatra-tamil by tta_uMatra-tamil;\012\011sub tta-tamil uuMatra-tamil by tta_uuMatra-tamil;\012\011sub nna-tamil uMatra-tamil by nna_uMatra-tamil;\012\011sub ta-tamil uMatra-tamil by ta_uMatra-tamil;\012\011sub na-tamil uMatra-tamil by na_uMatra-tamil;\012\011sub nnna-tamil uMatra-tamil by nnna_uMatra-tamil;\012\011sub pa-tamil uuMatra-tamil by pa_uuMatra-tamil;\012\011sub ma-tamil uMatra-tamil by ma_uMatra-tamil;\012\011sub ma-tamil uuMatra-tamil by ma_uuMatra-tamil;\012\011sub ya-tamil uuMatra-tamil by ya_uuMatra-tamil;\012\011sub ra-tamil uMatra-tamil by ra_uMatra-tamil;\012\011sub ra-tamil uuMatra-tamil by ra_uuMatra-tamil;\012\011sub rra-tamil uMatra-tamil by rra_uMatra-tamil;\012\011sub la-tamil uMatra-tamil by la_uMatra-tamil;\012\011sub lla-tamil uMatra-tamil by lla_uMatra-tamil;\012\011sub lla-tamil uuMatra-tamil by lla_uuMatra-tamil;\012\011sub llla-tamil uMatra-tamil by llla_uMatra-tamil;\012\011sub llla-tamil uuMatra-tamil by llla_uuMatra-tamil;\012\011sub va-tamil uuMatra-tamil by va_uuMatra-tamil;\012} ccmp_taml_2;\012";
 name = ccmp;
 },
 {
@@ -820,7 +820,7 @@ unicode = 00C2;
 },
 {
 glyphname = Acircumflexacute;
-lastChange = "2016-02-19 14:43:00 +0000";
+lastChange = "2016-02-19 16:58:41 +0000";
 layers = (
 {
 components = (
@@ -851,7 +851,7 @@ transform = "{1, 0, 0, 1, 16, 182}";
 },
 {
 name = acutecomb.cap;
-transform = "{1, 0, 0, 1, 279, 248}";
+transform = "{1, 0, 0, 1, 69, 349}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -910,7 +910,7 @@ unicode = 1EAC;
 },
 {
 glyphname = Acircumflexgrave;
-lastChange = "2016-02-19 14:43:00 +0000";
+lastChange = "2016-02-19 16:58:41 +0000";
 layers = (
 {
 components = (
@@ -941,7 +941,7 @@ transform = "{1, 0, 0, 1, 16, 182}";
 },
 {
 name = gravecomb.cap;
-transform = "{1, 0, 0, 1, 227, 255}";
+transform = "{1, 0, 0, 1, -22, 349}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -955,7 +955,7 @@ unicode = 1EA6;
 },
 {
 glyphname = Acircumflexhookabove;
-lastChange = "2016-02-19 14:43:00 +0000";
+lastChange = "2016-02-19 16:58:41 +0000";
 layers = (
 {
 components = (
@@ -986,7 +986,7 @@ transform = "{1, 0, 0, 1, 16, 182}";
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 280, 258}";
+transform = "{1, 0, 0, 1, 95, 349}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -3129,7 +3129,7 @@ unicode = 00CA;
 },
 {
 glyphname = Ecircumflexacute;
-lastChange = "2016-02-19 14:43:00 +0000";
+lastChange = "2016-02-19 16:58:41 +0000";
 layers = (
 {
 components = (
@@ -3160,7 +3160,7 @@ transform = "{1, 0, 0, 1, -24, 182}";
 },
 {
 name = acutecomb.cap;
-transform = "{1, 0, 0, 1, 243, 251}";
+transform = "{1, 0, 0, 1, 29, 349}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -3219,7 +3219,7 @@ unicode = 1EC6;
 },
 {
 glyphname = Ecircumflexgrave;
-lastChange = "2016-02-19 14:43:00 +0000";
+lastChange = "2016-02-19 16:58:41 +0000";
 layers = (
 {
 components = (
@@ -3250,7 +3250,7 @@ transform = "{1, 0, 0, 1, -24, 182}";
 },
 {
 name = gravecomb.cap;
-transform = "{1, 0, 0, 1, 185, 249}";
+transform = "{1, 0, 0, 1, -62, 349}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -3264,7 +3264,7 @@ unicode = 1EC0;
 },
 {
 glyphname = Ecircumflexhookabove;
-lastChange = "2016-02-19 14:43:00 +0000";
+lastChange = "2016-02-19 16:58:41 +0000";
 layers = (
 {
 components = (
@@ -3295,7 +3295,7 @@ transform = "{1, 0, 0, 1, -24, 182}";
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 240, 254}";
+transform = "{1, 0, 0, 1, 55, 349}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -9088,7 +9088,7 @@ unicode = 00D4;
 },
 {
 glyphname = Ocircumflexacute;
-lastChange = "2016-02-19 14:43:00 +0000";
+lastChange = "2016-02-19 16:58:41 +0000";
 layers = (
 {
 components = (
@@ -9119,7 +9119,7 @@ transform = "{1, 0, 0, 1, 29, 182}";
 },
 {
 name = acutecomb.cap;
-transform = "{1, 0, 0, 1, 297, 251}";
+transform = "{1, 0, 0, 1, 82, 349}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -9178,7 +9178,7 @@ unicode = 1ED8;
 },
 {
 glyphname = Ocircumflexgrave;
-lastChange = "2016-02-19 14:43:00 +0000";
+lastChange = "2016-02-19 16:58:41 +0000";
 layers = (
 {
 components = (
@@ -9209,7 +9209,7 @@ transform = "{1, 0, 0, 1, 29, 182}";
 },
 {
 name = gravecomb.cap;
-transform = "{1, 0, 0, 1, 240, 248}";
+transform = "{1, 0, 0, 1, -9, 349}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -9223,7 +9223,7 @@ unicode = 1ED2;
 },
 {
 glyphname = Ocircumflexhookabove;
-lastChange = "2016-02-19 14:43:00 +0000";
+lastChange = "2016-02-19 16:58:41 +0000";
 layers = (
 {
 components = (
@@ -9254,7 +9254,7 @@ transform = "{1, 0, 0, 1, 29, 182}";
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 295, 255}";
+transform = "{1, 0, 0, 1, 108, 349}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -17712,7 +17712,7 @@ position = "{253, 500}";
 annotations = (
 {
 position = "{346, -79}";
-text = "j\UFFC3\UFFA1 est\UFFC3\UFFA1 mais pequeno";
+text = "j\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFA1 est\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFA1 mais pequeno";
 type = Text;
 },
 {
@@ -19776,7 +19776,7 @@ unicode = 00E0;
 },
 {
 glyphname = ahookabove;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2016-02-19 16:58:41 +0000";
 layers = (
 {
 components = (
@@ -19785,7 +19785,7 @@ name = a;
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 30, 26}";
+transform = "{1, 0, 0, 1, 40, 0}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -19799,7 +19799,7 @@ name = a;
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 54, 20}";
+transform = "{1, 0, 0, 1, 55, 0}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -20767,7 +20767,7 @@ width = 529;
 annotations = (
 {
 position = "{64.283, -104.699}";
-text = "est\UFFC3\UFFA1 muito a cair para a frente ";
+text = "est\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFA1 muito a cair para a frente ";
 type = Text;
 }
 );
@@ -20828,7 +20828,7 @@ width = 550;
 annotations = (
 {
 position = "{64.283, -104.699}";
-text = "est\UFFC3\UFFA1 muito a cair para a frente ";
+text = "est\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFA1 muito a cair para a frente ";
 type = Text;
 }
 );
@@ -27998,7 +27998,7 @@ unicode = 013C;
 },
 {
 glyphname = ldot;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2016-02-19 16:04:39 +0000";
 layers = (
 {
 components = (
@@ -28012,7 +28012,7 @@ transform = "{1, 0, 0, 1, 150, 85}";
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 name = Light;
-width = 300;
+width = 250;
 },
 {
 components = (
@@ -35697,7 +35697,7 @@ unicode = 0077;
 },
 {
 glyphname = wacute;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2016-02-19 17:00:16 +0000";
 layers = (
 {
 components = (
@@ -35706,7 +35706,7 @@ name = w;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 135, 0}";
+transform = "{1, 0, 0, 1, 113, 0}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -35720,7 +35720,7 @@ name = w;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 183, 0}";
+transform = "{1, 0, 0, 1, 179, 0}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -35808,7 +35808,7 @@ unicode = 1E85;
 },
 {
 glyphname = wgrave;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2016-02-19 17:00:16 +0000";
 layers = (
 {
 components = (
@@ -35817,7 +35817,7 @@ name = w;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, -14, 0}";
+transform = "{1, 0, 0, 1, 51, 0}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -35831,7 +35831,7 @@ name = w;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 79.008, 0}";
+transform = "{1, 0, 0, 1, 91, 0}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -72422,7 +72422,7 @@ type = Text;
 },
 {
 position = "{408, -58}";
-text = "s\UFFC3\UFFB3 mudei nesta letra";
+text = "s\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFB3 mudei nesta letra";
 type = Text;
 }
 );
@@ -73027,7 +73027,7 @@ type = Text;
 },
 {
 position = "{408, -58}";
-text = "s\UFFC3\UFFB3 mudei nesta letra";
+text = "s\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFB3 mudei nesta letra";
 type = Text;
 }
 );
@@ -73289,7 +73289,7 @@ type = Text;
 },
 {
 position = "{408, -58}";
-text = "s\UFFC3\UFFB3 mudei nesta letra";
+text = "s\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFB3 mudei nesta letra";
 type = Text;
 }
 );
@@ -73828,7 +73828,7 @@ type = Text;
 },
 {
 position = "{408, -58}";
-text = "s\UFFC3\UFFB3 mudei nesta letra";
+text = "s\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFB3 mudei nesta letra";
 type = Text;
 }
 );
@@ -74589,7 +74589,7 @@ type = Text;
 },
 {
 position = "{408, -58}";
-text = "s\UFFC3\UFFB3 mudei nesta letra";
+text = "s\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFB3 mudei nesta letra";
 type = Text;
 }
 );
@@ -145408,7 +145408,7 @@ unicode = 2154;
 },
 {
 glyphname = onequarter;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2016-02-19 16:04:39 +0000";
 layers = (
 {
 components = (
@@ -145417,16 +145417,16 @@ name = onesuperior;
 },
 {
 name = fraction;
-transform = "{1, 0, 0, 1, 267, 0}";
+transform = "{1, 0, 0, 1, 280, 0}";
 },
 {
 name = fourinferior;
-transform = "{1, 0, 0, 1, 431, 0}";
+transform = "{1, 0, 0, 1, 494, 0}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 name = Light;
-width = 811;
+width = 889;
 },
 {
 components = (
@@ -145452,7 +145452,7 @@ unicode = 00BC;
 },
 {
 glyphname = threequarters;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2016-02-19 16:04:39 +0000";
 layers = (
 {
 components = (
@@ -145461,16 +145461,16 @@ name = threesuperior;
 },
 {
 name = fraction;
-transform = "{1, 0, 0, 1, 347, 0}";
+transform = "{1, 0, 0, 1, 375, 0}";
 },
 {
 name = fourinferior;
-transform = "{1, 0, 0, 1, 511, 0}";
+transform = "{1, 0, 0, 1, 589, 0}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 name = Light;
-width = 891;
+width = 984;
 },
 {
 components = (
@@ -145628,7 +145628,7 @@ unicode = 215D;
 },
 {
 glyphname = seveneighths;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2016-02-19 16:04:40 +0000";
 layers = (
 {
 components = (
@@ -145637,16 +145637,16 @@ name = sevensuperior;
 },
 {
 name = fraction;
-transform = "{1, 0, 0, 1, 287, 0}";
+transform = "{1, 0, 0, 1, 341, 0}";
 },
 {
 name = eightinferior;
-transform = "{1, 0, 0, 1, 499, 0}";
+transform = "{1, 0, 0, 1, 555, 0}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 name = Light;
-width = 879;
+width = 958;
 },
 {
 components = (
@@ -180646,7 +180646,7 @@ unicode = 0BC0;
 },
 {
 glyphname = "halant-tamil";
-lastChange = "2015-10-28 19:28:32 +0000";
+lastChange = "2016-02-19 16:04:53 +0000";
 layers = (
 {
 anchors = (
@@ -180661,18 +180661,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"22 649 OFFCURVE",
-"41 668 OFFCURVE",
-"41 691 CURVE SMOOTH",
-"41 713 OFFCURVE",
-"22 732 OFFCURVE",
-"0 732 CURVE SMOOTH",
-"-23 732 OFFCURVE",
-"-42 713 OFFCURVE",
-"-42 691 CURVE SMOOTH",
-"-42 668 OFFCURVE",
-"-23 649 OFFCURVE",
-"0 649 CURVE SMOOTH"
+"17 659 OFFCURVE",
+"31 673 OFFCURVE",
+"31 691 CURVE SMOOTH",
+"31 708 OFFCURVE",
+"17 722 OFFCURVE",
+"0 722 CURVE SMOOTH",
+"-18 722 OFFCURVE",
+"-32 708 OFFCURVE",
+"-32 691 CURVE SMOOTH",
+"-32 673 OFFCURVE",
+"-18 659 OFFCURVE",
+"0 659 CURVE SMOOTH"
 );
 }
 );
@@ -198909,7 +198909,7 @@ instances = (
 customParameters = (
 {
 name = "TTFAutohint options";
-value = "-l 7 -r 28 -G 50 -x 13 -w \"G\" -I";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
 }
 );
 interpolationWeight = 30;
@@ -198921,6 +198921,10 @@ customParameters = (
 {
 name = weightClass;
 value = "275";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
 }
 );
 interpolationWeight = 45;
@@ -198928,34 +198932,70 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
 interpolationWeight = 65;
 name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
 interpolationWeight = 90;
 name = Regular;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
 interpolationWeight = 103;
 name = Medium;
 weightClass = Medium;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
 interpolationWeight = 126;
 isBold = 1;
+name = "Semi Bold";
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
+interpolationWeight = 137;
 name = Bold;
 weightClass = Bold;
 },
 {
-interpolationWeight = 137;
-name = ExtraBold;
-weightClass = ExtraBold;
-},
+customParameters = (
 {
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
 interpolationWeight = 150;
-name = Black;
-weightClass = Black;
+name = "Extra Bold";
+weightClass = ExtraBold;
 }
 );
 kerning = {
