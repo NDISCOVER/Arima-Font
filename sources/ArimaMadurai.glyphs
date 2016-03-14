@@ -198972,7 +198972,7 @@ value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hi
 );
 interpolationWeight = 126;
 isBold = 1;
-name = "Semi Bold";
+name = SemiBold;
 weightClass = SemiBold;
 },
 {
@@ -198994,7 +198994,7 @@ value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hi
 }
 );
 interpolationWeight = 150;
-name = "Extra Bold";
+name = ExtraBold;
 weightClass = ExtraBold;
 }
 );
