@@ -198983,6 +198983,7 @@ value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hi
 }
 );
 interpolationWeight = 137;
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
