@@ -1,10 +1,4 @@
 {
-classes = (
-{
-code = "";
-name = DevaIMatras;
-}
-);
 copyright = "Copyright 2015 The Arima Project Authors (info@ndiscovered.com)";
 customParameters = (
 {
@@ -44,7 +38,7 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "lookup latn_comb {\012\011script latn;\012\011lookupflag 0;\012\011sub G tildecomb by G_tildecomb;\012\011sub g tildecomb by g_tildecomb;\012} latn_comb;\012\012lookup mlm2_comb {\012\011script mlm2;\012\011lookupflag 0;\012\011sub ka-malayalam uMatra-malayalam by ka_uMatra-malayalam;\012\011sub ra-malayalam uMatra-malayalam by ra_uMatra-malayalam;\012\011sub uMatra-malayalam halant-malayalam by uMatra_halant-malayalam;\012} mlm2_comb;\012";
+code = "lookup ccmp_latn_1 {\012\011script latn;\012\011lookupflag 0;\012\011sub G tildecomb by G_tildecomb;\012\011sub g tildecomb by g_tildecomb;\012} ccmp_latn_1;\012\012lookup ccmp_latn_2 {\012\011script latn;\012\011lookupflag 0;\012\011sub G tildecomb by G_tildecomb;\012\011sub g tildecomb by g_tildecomb;\012} ccmp_latn_2;\012\012lookup ccmp_mlm2_1 {\012\011script mlm2;\012\011lookupflag 0;\012\011sub ka-malayalam uMatra-malayalam by ka_uMatra-malayalam;\012\011sub ra-malayalam uMatra-malayalam by ra_uMatra-malayalam;\012\011sub uMatra-malayalam halant-malayalam by uMatra_halant-malayalam;\012} ccmp_mlm2_1;\012\012lookup ccmp_mlm2_2 {\012\011script mlm2;\012\011lookupflag 0;\012\011sub ka-malayalam uMatra-malayalam by ka_uMatra-malayalam;\012\011sub ra-malayalam uMatra-malayalam by ra_uMatra-malayalam;\012\011sub uMatra-malayalam halant-malayalam by uMatra_halant-malayalam;\012} ccmp_mlm2_2;\012";
 name = ccmp;
 },
 {
@@ -17709,7 +17703,7 @@ position = "{253, 500}";
 annotations = (
 {
 position = "{346, -79}";
-text = "j\UFFC3\UFFA1 est\UFFC3\UFFA1 mais pequeno";
+text = "j\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFA1 est\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFA1 mais pequeno";
 type = Text;
 },
 {
@@ -19212,16 +19206,16 @@ name = a;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, -26, 0}";
+transform = "{1, 0, 0, 1, -47, 0}";
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 36, 180}";
+transform = "{1, 0, 0, 1, 1, 123}";
 }
 );
 layerId = "B44A4C46-57C9-4135-B0DA-C51D61A6A1AF";
 name = "Bold Sep 21 15, 17:02";
-width = 575;
+width = 534;
 },
 {
 anchors = (
@@ -19435,11 +19429,11 @@ name = a;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, -54, 0}";
+transform = "{1, 0, 0, 1, -47, 0}";
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 56, 43}";
+transform = "{1, 0, 0, 1, -61, 123}";
 }
 );
 layerId = "736CB22D-C0AD-420E-8A56-806BC5D95F59";
@@ -20764,7 +20758,7 @@ width = 529;
 annotations = (
 {
 position = "{64.283, -104.699}";
-text = "est\UFFC3\UFFA1 muito a cair para a frente ";
+text = "est\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFA1 muito a cair para a frente ";
 type = Text;
 }
 );
@@ -20825,7 +20819,7 @@ width = 550;
 annotations = (
 {
 position = "{64.283, -104.699}";
-text = "est\UFFC3\UFFA1 muito a cair para a frente ";
+text = "est\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFA1 muito a cair para a frente ";
 type = Text;
 }
 );
@@ -25851,12 +25845,12 @@ name = h;
 },
 {
 name = circumflex;
-transform = "{1, 0, 0, 1, 6, 46}";
+transform = "{1, 0, 0, 1, -184, 168}";
 }
 );
 layerId = "0EFBA8A1-B0E6-47B8-85CF-B440F4AEDDEE";
 name = "Light Oct 5 15, 13:34";
-width = 559;
+width = 554;
 },
 {
 components = (
@@ -35694,7 +35688,7 @@ unicode = 0077;
 },
 {
 glyphname = wacute;
-lastChange = "2016-02-19 14:38:20 +0000";
+lastChange = "2016-02-22 12:03:23 +0000";
 layers = (
 {
 components = (
@@ -35717,7 +35711,7 @@ name = w;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 183, 0}";
+transform = "{1, 0, 0, 1, 179, 0}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -35805,7 +35799,7 @@ unicode = 1E85;
 },
 {
 glyphname = wgrave;
-lastChange = "2016-02-19 14:38:20 +0000";
+lastChange = "2016-02-22 12:03:23 +0000";
 layers = (
 {
 components = (
@@ -35828,7 +35822,7 @@ name = w;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 79.008, 0}";
+transform = "{1, 0, 0, 1, 91, 0}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -40179,7 +40173,7 @@ layers = (
 annotations = (
 {
 position = "{433.117, -70.992}";
-text = "muito espa\UFFC3\UFFA7o ";
+text = "muito espa\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFA7o ";
 type = Text;
 }
 );
@@ -40552,7 +40546,7 @@ width = 959;
 annotations = (
 {
 position = "{433.117, -70.992}";
-text = "muito espa\UFFC3\UFFA7o ";
+text = "muito espa\UFFEF\UFFBF\UFF83\UFFEF\UFFBE\UFFA7o ";
 type = Text;
 }
 );
@@ -40652,7 +40646,7 @@ unicode = 0D07;
 },
 {
 glyphname = "ii-malayalam";
-lastChange = "2016-02-19 14:38:21 +0000";
+lastChange = "2016-02-22 12:03:23 +0000";
 layers = (
 {
 components = (
@@ -40675,12 +40669,12 @@ name = "i-malayalam";
 },
 {
 name = "aulengthmark-malayalam";
-transform = "{1, 0, 0, 1, 936, 0}";
+transform = "{1, 0, 0, 1, 929, 0}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 name = Bold;
-width = 1726;
+width = 1734;
 },
 {
 associatedMasterId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -46527,7 +46521,7 @@ unicode = 0D12;
 },
 {
 glyphname = "oo-malayalam";
-lastChange = "2016-02-19 14:38:21 +0000";
+lastChange = "2016-02-22 12:03:23 +0000";
 layers = (
 {
 background = {
@@ -46585,12 +46579,12 @@ name = "o-malayalam";
 },
 {
 name = "aaMatra-malayalam";
-transform = "{1, 0, 0, 1, 865, 0}";
+transform = "{1, 0, 0, 1, 870, 0}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 name = Bold;
-width = 1482;
+width = 1487;
 },
 {
 associatedMasterId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -107410,7 +107404,7 @@ rightMetricsKey = "pa-malayalam";
 {
 color = 0;
 glyphname = "b_da-malayalam";
-lastChange = "2015-10-30 16:50:26 +0000";
+lastChange = "2016-02-22 12:03:23 +0000";
 layers = (
 {
 anchors = (
@@ -107445,12 +107439,12 @@ name = "ba-malayalam";
 },
 {
 name = "da-malayalam.below";
-transform = "{1, 0, 0, 1, 1545, 0}";
+transform = "{1, 0, 0, 1, 1552, 0}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 name = Bold;
-width = 1545;
+width = 1552;
 }
 );
 leftKerningGroup = "ra-malayalam";
@@ -107460,7 +107454,7 @@ rightMetricsKey = "da-malayalam";
 {
 color = 0;
 glyphname = "b_dha-malayalam";
-lastChange = "2015-10-30 16:50:26 +0000";
+lastChange = "2016-02-22 12:03:23 +0000";
 layers = (
 {
 anchors = (
@@ -107495,12 +107489,12 @@ name = "ba-malayalam";
 },
 {
 name = "dha-malayalam.below";
-transform = "{1, 0, 0, 1, 1545, 0}";
+transform = "{1, 0, 0, 1, 1552, 0}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 name = Bold;
-width = 1545;
+width = 1552;
 }
 );
 leftKerningGroup = "ra-malayalam";
@@ -108101,7 +108095,7 @@ rightMetricsKey = "pa-malayalam";
 {
 color = 0;
 glyphname = "m_ma-malayalam";
-lastChange = "2016-02-19 14:38:12 +0000";
+lastChange = "2016-02-22 12:03:23 +0000";
 layers = (
 {
 anchors = (
@@ -108136,12 +108130,12 @@ name = "ma-malayalam";
 },
 {
 name = "ma-malayalam";
-transform = "{1, 0, 0, 1, 594, 0}";
+transform = "{1, 0, 0, 1, 776, 0}";
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 name = Bold;
-width = 1370;
+width = 1552;
 }
 );
 leftMetricsKey = "m-malayalam";
@@ -151453,8 +151447,8 @@ unicode = 0D4C;
 {
 color = 4;
 glyphname = "aulengthmark-malayalam";
-production = "0D57";
-lastChange = "2016-02-19 15:52:33 +0000";
+production = uni0D57;
+lastChange = "2016-02-22 13:21:04 +0000";
 layers = (
 {
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -151584,6 +151578,8 @@ width = 805;
 }
 );
 unicode = 0D57;
+script = malayalam;
+category = Mark;
 },
 {
 color = 8;
@@ -152123,7 +152119,7 @@ instances = (
 customParameters = (
 {
 name = "TTFAutohint options";
-value = "-l 7 -r 28 -G 50 -x 13 -w \"G\" -I";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
 }
 );
 interpolationWeight = 30;
@@ -152135,6 +152131,10 @@ customParameters = (
 {
 name = weightClass;
 value = "275";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
 }
 );
 interpolationWeight = 45;
@@ -152142,33 +152142,81 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
 interpolationWeight = 65;
 name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
 interpolationWeight = 90;
 name = Regular;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
 interpolationWeight = 103;
 name = Medium;
 weightClass = Medium;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
 interpolationWeight = 126;
 isBold = 1;
+<<<<<<< HEAD
 name = "Semi Bold";
+=======
+name = SemiBold;
+>>>>>>> origin/master
 weightClass = SemiBold;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
 interpolationWeight = 137;
+<<<<<<< HEAD
+=======
+isBold = 1;
+>>>>>>> origin/master
 name = Bold;
 weightClass = Bold;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
 interpolationWeight = 150;
+<<<<<<< HEAD
 name = "Extra Bold";
+=======
+name = ExtraBold;
+>>>>>>> origin/master
 weightClass = ExtraBold;
 }
 );
