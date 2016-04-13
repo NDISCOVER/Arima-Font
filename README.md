@@ -1,6 +1,8 @@
 Arima, a Tamil + Malayalam + Latin typeface family
 ===================================================
 
+<img src="https://github.com/NDISCOVER/Arima-Font/blob/master/documentation/samples/ArimaSampleCover.png" alt="cover" width="890">
+
 A display font with soft edges and calligraphic feel is the main inspiration for Arima Type Family. 
 
 It has a low contrast to allow good rendering on screen. 
