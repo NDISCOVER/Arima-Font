@@ -197671,6 +197671,35 @@ instanceInterpolations = {
 };
 name = Medium;
 weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
+interpolationWeight = 135;
+instanceInterpolations = {
+"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 0.192308;
+"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 0.807692;
+};
+name = "Semi Bold";
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
+interpolationWeight = 160;
+instanceInterpolations = {
+"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 1;
+};
+name = Bold;
+weightClass = Bold;
 }
 );
 kerning = {
@@ -198177,76 +198206,6 @@ two = -17;
 };
 };
 "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = {
-"@MMK_L_aa-tamil" = {
-"@MMK_R_ia-tamil" = -8;
-"@MMK_R_o-tamil" = -20;
-"eeMatra-tamil" = -40;
-};
-"@MMK_L_e-tamil" = {
-"@MMK_R_a-tamil" = -84;
-"@MMK_R_ia-tamil" = -48;
-"@MMK_R_ka-tamil" = -25;
-"eMatra-tamil" = 0;
-"rra-tamil" = -25;
-"visarga-tamil" = -40;
-};
-"@MMK_L_o-tamil" = {
-"@MMK_R_a-tamil" = -28;
-};
-"@MMK_L_u-tamil" = {
-"@MMK_R_ia-tamil" = -20;
-"@MMK_R_o-tamil" = -80;
-"oo-tamil" = -30;
-};
-"ca-tamil" = {
-"@MMK_R_a-tamil" = -87;
-};
-"day-tamil" = {
-"@MMK_R_ia-tamil" = -19;
-};
-"eeMatra-tamil" = {
-"@MMK_R_a-tamil" = -10;
-};
-"four-tamil" = {
-"@MMK_R_a-tamil" = -120;
-"@MMK_R_ia-tamil" = -16;
-};
-"i-tamil" = {
-"@MMK_R_a-tamil" = -40;
-};
-"ii-tamil" = {
-"@MMK_R_a-tamil" = -40;
-};
-"ja-tamil" = {
-"@MMK_R_a-tamil" = -10;
-};
-"la-tamil" = {
-"@MMK_R_a-tamil" = -20;
-"@MMK_R_i-tamil" = -39;
-"@MMK_R_ka-tamil" = -5;
-};
-"llla-tamil" = {
-"@MMK_R_a-tamil" = -10;
-};
-"pa-tamil" = {
-"@MMK_R_ca-tamil" = 0;
-};
-"sa-tamil" = {
-"@MMK_R_a-tamil" = -20;
-};
-"sha-tamil" = {
-"@MMK_R_a-tamil" = -32;
-};
-"six-tamil" = {
-"@MMK_R_ia-tamil" = -10;
-};
-"uuMatra-tamil" = {
-"@MMK_R_a-tamil" = -190;
-"@MMK_R_ia-tamil" = -40;
-};
-"year-tamil" = {
-"@MMK_R_a-tamil" = -10;
-};
 "@MMK_L_A" = {
 "@MMK_R_O" = -8;
 "@MMK_R_T" = -40;
@@ -198605,6 +198564,11 @@ v = -33.9846;
 question = -24.6923;
 v = -33.1692;
 };
+"@MMK_L_aa-tamil" = {
+"@MMK_R_ia-tamil" = -8;
+"@MMK_R_o-tamil" = -20;
+"eeMatra-tamil" = -40;
+};
 "@MMK_L_c" = {
 "@MMK_R_u" = -7;
 };
@@ -198629,6 +198593,14 @@ v = -26.3385;
 "@MMK_R_w" = -5;
 v = -4.11538;
 x = -1.64615;
+};
+"@MMK_L_e-tamil" = {
+"@MMK_R_a-tamil" = -84;
+"@MMK_R_ia-tamil" = -48;
+"@MMK_R_ka-tamil" = -25;
+"eMatra-tamil" = 0;
+"rra-tamil" = -25;
+"visarga-tamil" = -40;
 };
 "@MMK_L_g" = {
 "@MMK_R_a" = -1;
@@ -198689,6 +198661,9 @@ question = -32.9231;
 v = -10.7;
 x = -9.87692;
 };
+"@MMK_L_o-tamil" = {
+"@MMK_R_a-tamil" = -28;
+};
 "@MMK_L_period" = {
 "@MMK_R_O" = -4;
 "@MMK_R_T" = -63;
@@ -198735,6 +198710,11 @@ x = -5.76154;
 "@MMK_R_z" = -2;
 v = -8.23077;
 x = -8.23077;
+};
+"@MMK_L_u-tamil" = {
+"@MMK_R_ia-tamil" = -20;
+"@MMK_R_o-tamil" = -80;
+"oo-tamil" = -30;
 };
 "@MMK_L_w" = {
 "@MMK_R_a" = -6;
@@ -198829,6 +198809,15 @@ backslash = {
 braceleft = {
 "@MMK_R_o" = -27.1615;
 };
+"ca-tamil" = {
+"@MMK_R_a-tamil" = -87;
+};
+"day-tamil" = {
+"@MMK_R_ia-tamil" = -19;
+};
+"eeMatra-tamil" = {
+"@MMK_R_a-tamil" = -10;
+};
 eight = {
 five = -13.9923;
 nine = -23.2308;
@@ -198874,6 +198863,10 @@ one = -12.3462;
 seven = -6.58462;
 two = -1.76923;
 };
+"four-tamil" = {
+"@MMK_R_a-tamil" = -120;
+"@MMK_R_ia-tamil" = -16;
+};
 hyphen = {
 "@MMK_R_J" = -5.30769;
 "@MMK_R_T" = -7.07692;
@@ -198882,6 +198875,23 @@ hyphen = {
 "@MMK_R_Z" = -7.07692;
 V = -5.30769;
 X = -5.30769;
+};
+"i-tamil" = {
+"@MMK_R_a-tamil" = -40;
+};
+"ii-tamil" = {
+"@MMK_R_a-tamil" = -40;
+};
+"ja-tamil" = {
+"@MMK_R_a-tamil" = -10;
+};
+"la-tamil" = {
+"@MMK_R_a-tamil" = -20;
+"@MMK_R_i-tamil" = -39;
+"@MMK_R_ka-tamil" = -5;
+};
+"llla-tamil" = {
+"@MMK_R_a-tamil" = -10;
 };
 nine = {
 eight = -15.0538;
@@ -198894,8 +198904,14 @@ zero = -1.76923;
 one = {
 zero = -1.41538;
 };
+"pa-tamil" = {
+"@MMK_R_ca-tamil" = 0;
+};
 parenleft = {
 "@MMK_R_o" = -24.6923;
+};
+"sa-tamil" = {
+"@MMK_R_a-tamil" = -20;
 };
 seven = {
 eight = -20.6385;
@@ -198907,11 +198923,17 @@ three = -8.23077;
 two = -1.41538;
 zero = -8.41538;
 };
+"sha-tamil" = {
+"@MMK_R_a-tamil" = -32;
+};
 six = {
 nine = -12.0615;
 seven = -6.19231;
 two = -2.12308;
 zero = -1.76923;
+};
+"six-tamil" = {
+"@MMK_R_ia-tamil" = -10;
 };
 slash = {
 "@MMK_R_A" = -39.5077;
@@ -198927,6 +198949,10 @@ eight = -5.76154;
 four = -1.76923;
 seven = -2.12308;
 };
+"uuMatra-tamil" = {
+"@MMK_R_a-tamil" = -190;
+"@MMK_R_ia-tamil" = -40;
+};
 v = {
 "@MMK_R_a" = -5.76154;
 "@MMK_R_period" = -62.0385;
@@ -198935,6 +198961,9 @@ x = {
 "@MMK_R_hyphen" = -5.30769;
 "@MMK_R_o" = -3.00769;
 "@MMK_R_t" = 4.11538;
+};
+"year-tamil" = {
+"@MMK_R_a-tamil" = -10;
 };
 zero = {
 eight = -11.7692;

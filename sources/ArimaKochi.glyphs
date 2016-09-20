@@ -150530,22 +150530,39 @@ instanceInterpolations = {
 };
 name = Medium;
 weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
+interpolationWeight = 135;
+instanceInterpolations = {
+"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 0.192308;
+"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 0.807692;
+};
+name = "Semi Bold";
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hinting-limit=50 --increase-x-height=13";
+}
+);
+interpolationWeight = 160;
+instanceInterpolations = {
+"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 1;
+};
+name = Bold;
+weightClass = Bold;
 }
 );
 kerning = {
 "60CFBDE8-BC08-4808-BF41-F011F3E03A54" = {
-"@MMK_L_ra-malayalam" = {
-"aaMatra-malayalam" = -16;
-};
-"ka-malayalam" = {
-"uMatra-malayalam" = -32;
-};
-"ng_nga-malayalam" = {
-"@MMK_R_uMatra-malayalam" = -20;
-};
-"ra-malayalam" = {
-"uMatra-malayalam" = -30;
-};
 "@MMK_L_A" = {
 "@MMK_R_T" = -50;
 "@MMK_R_U" = -5;
@@ -150833,6 +150850,9 @@ f = -30;
 "@MMK_R_s" = -10;
 "@MMK_R_u" = -21;
 };
+"@MMK_L_ra-malayalam" = {
+"aaMatra-malayalam" = -16;
+};
 "@MMK_L_s" = {
 "@MMK_R_quotesingle" = -17;
 "@MMK_R_u" = -8;
@@ -150947,6 +150967,12 @@ hyphen = {
 V = -30;
 X = -30;
 };
+"ka-malayalam" = {
+"uMatra-malayalam" = -32;
+};
+"ng_nga-malayalam" = {
+"@MMK_R_uMatra-malayalam" = -20;
+};
 nine = {
 eight = -6;
 five = -9;
@@ -150957,6 +150983,9 @@ zero = -10;
 };
 one = {
 zero = -8;
+};
+"ra-malayalam" = {
+"uMatra-malayalam" = -30;
 };
 seven = {
 eight = -5;
@@ -151003,15 +151032,6 @@ two = -17;
 };
 };
 "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = {
-"@MMK_L_ra-malayalam" = {
-"aaMatra-malayalam" = -30;
-};
-"ka-malayalam" = {
-"uMatra-malayalam" = -50;
-};
-"ra-malayalam" = {
-"uMatra-malayalam" = -30;
-};
 "@MMK_L_A" = {
 "@MMK_R_O" = -8;
 "@MMK_R_T" = -40;
@@ -151483,6 +151503,9 @@ f = -5.30769;
 "@MMK_R_s" = -2;
 "@MMK_R_u" = -4;
 };
+"@MMK_L_ra-malayalam" = {
+"aaMatra-malayalam" = -30;
+};
 "@MMK_L_s" = {
 "@MMK_R_quotesingle" = -3;
 "@MMK_R_u" = -8;
@@ -151648,6 +151671,9 @@ hyphen = {
 V = -5.30769;
 X = -5.30769;
 };
+"ka-malayalam" = {
+"uMatra-malayalam" = -50;
+};
 nine = {
 eight = -15.0538;
 five = -1.59231;
@@ -151661,6 +151687,9 @@ zero = -1.41538;
 };
 parenleft = {
 "@MMK_R_o" = -24.6923;
+};
+"ra-malayalam" = {
+"uMatra-malayalam" = -30;
 };
 seven = {
 eight = -20.6385;
