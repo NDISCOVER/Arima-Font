@@ -92247,7 +92247,7 @@ unicode = 00B0;
 },
 {
 glyphname = minute;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2020-06-25 15:03:55 +0000";
 layers = (
 {
 components = (
@@ -92265,14 +92265,16 @@ name = quotesingle;
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
-width = 236;
+width = 203;
 }
 );
+leftMetricsKey = quotesingle;
+rightMetricsKey = quotesingle;
 unicode = 2032;
 },
 {
 glyphname = second;
-lastChange = "2020-06-25 13:31:48 +0000";
+lastChange = "2020-06-25 15:03:41 +0000";
 layers = (
 {
 components = (
@@ -92298,11 +92300,11 @@ name = quotesingle;
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
-width = 388;
+width = 363;
 }
 );
-leftMetricsKey = minute;
-rightMetricsKey = minute;
+leftMetricsKey = quotesingle;
+rightMetricsKey = quotesingle;
 unicode = 2033;
 },
 {
