@@ -2,7 +2,8 @@
 .appVersion = "1340";
 DisplayStrings = (
 "/psili.case",
-"/Acircumflexdotbelow"
+"/Acircumflexdotbelow",
+"/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/fraction ½"
 );
 classes = (
 {
@@ -45,7 +46,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature subs;\012feature sups;\012feature frac;\012feature locl;\012feature sinf;\012feature ordn;\012feature case;\012";
+code = "feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature frac;\012feature ordn;\012feature case;\012feature numr;\012feature dnom;\012";
 name = aalt;
 },
 {
@@ -74,8 +75,16 @@ code = "sub zero by zerosuperior;\012sub one by onesuperior;\012sub two by twosu
 name = sups;
 },
 {
+code = "sub zero by zerosuperior;\012sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012sub five by fivesuperior;\012sub six by sixsuperior;\012sub seven by sevensuperior;\012sub eight by eightsuperior;\012sub nine by ninesuperior;\012";
+name = numr;
+},
+{
+code = "sub zero by zeroinferior;\012sub one by oneinferior;\012sub two by twoinferior;\012sub three by threeinferior;\012sub four by fourinferior;\012sub five by fiveinferior;\012sub six by sixinferior;\012sub seven by seveninferior;\012sub eight by eightinferior;\012sub nine by nineinferior;\012";
+name = dnom;
+},
+{
 automatic = 1;
-code = "sub one slash eight by oneeighth;\012sub one slash four by onequarter;\012sub three slash eight by threeeighths;\012sub one slash two by onehalf;\012sub five slash eight by fiveeighths;\012sub three slash four by threequarters;\012sub seven slash eight by seveneighths;\012sub one slash three by onethird;\012sub two slash three by twothirds;\012";
+code = "lookup FRAC {\012	sub slash by fraction;\012} FRAC;\012lookup UP {\012	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];\012} UP;\012lookup DOWN {\012	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\012	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\012} DOWN;\012";
 name = frac;
 },
 {
@@ -76450,7 +76459,7 @@ unicode = 2083;
 },
 {
 glyphname = fourinferior;
-lastChange = "2020-06-24 17:07:53 +0000";
+lastChange = "2020-06-25 11:46:08 +0000";
 layers = (
 {
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
@@ -78144,7 +78153,7 @@ unicode = 2044;
 },
 {
 glyphname = onehalf;
-lastChange = "2020-06-24 17:07:55 +0000";
+lastChange = "2020-06-25 11:45:11 +0000";
 layers = (
 {
 components = (
@@ -78181,13 +78190,11 @@ layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 width = 1027;
 }
 );
-leftMetricsKey = one.numr;
-rightMetricsKey = one.numr;
 unicode = 00BD;
 },
 {
 glyphname = onethird;
-lastChange = "2020-06-24 17:07:55 +0000";
+lastChange = "2020-06-25 11:45:11 +0000";
 layers = (
 {
 components = (
@@ -78224,13 +78231,11 @@ layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 width = 1030;
 }
 );
-leftMetricsKey = one.numr;
-rightMetricsKey = one.numr;
 unicode = 2153;
 },
 {
 glyphname = twothirds;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2020-06-25 11:45:11 +0000";
 layers = (
 {
 components = (
@@ -78267,13 +78272,11 @@ layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 width = 1099;
 }
 );
-leftMetricsKey = two.numr;
-rightMetricsKey = two.numr;
 unicode = 2154;
 },
 {
 glyphname = onequarter;
-lastChange = "2020-06-24 16:16:52 +0000";
+lastChange = "2020-06-25 11:46:51 +0000";
 layers = (
 {
 components = (
@@ -78286,11 +78289,11 @@ transform = "{1, 0, 0, 1, 280, 0}";
 },
 {
 name = fourinferior;
-transform = "{1, 0, 0, 1, 494, 0}";
+transform = "{1, 0, 0, 1, 424, 0}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
-width = 889;
+width = 819;
 },
 {
 components = (
@@ -78313,12 +78316,11 @@ layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 width = 998;
 }
 );
-leftMetricsKey = one.numr;
 unicode = 00BC;
 },
 {
 glyphname = threequarters;
-lastChange = "2020-06-24 16:16:52 +0000";
+lastChange = "2020-06-25 11:46:08 +0000";
 layers = (
 {
 components = (
@@ -78331,11 +78333,11 @@ transform = "{1, 0, 0, 1, 375, 0}";
 },
 {
 name = fourinferior;
-transform = "{1, 0, 0, 1, 589, 0}";
+transform = "{1, 0, 0, 1, 519, 0}";
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
-width = 984;
+width = 914;
 },
 {
 components = (
@@ -78358,12 +78360,11 @@ layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 width = 1072;
 }
 );
-leftMetricsKey = three.numr;
 unicode = 00BE;
 },
 {
 glyphname = oneeighth;
-lastChange = "2020-06-24 17:07:55 +0000";
+lastChange = "2020-06-25 11:45:11 +0000";
 layers = (
 {
 components = (
@@ -78400,12 +78401,11 @@ layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 width = 1064;
 }
 );
-leftMetricsKey = one.numr;
 unicode = 215B;
 },
 {
 glyphname = threeeighths;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2020-06-25 11:45:11 +0000";
 layers = (
 {
 components = (
@@ -78442,12 +78442,11 @@ layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 width = 1139;
 }
 );
-leftMetricsKey = three.numr;
 unicode = 215C;
 },
 {
 glyphname = fiveeighths;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2020-06-25 11:45:11 +0000";
 layers = (
 {
 components = (
@@ -78484,12 +78483,11 @@ layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 width = 1146;
 }
 );
-leftMetricsKey = five.numr;
 unicode = 215D;
 },
 {
 glyphname = seveneighths;
-lastChange = "2020-06-24 16:16:52 +0000";
+lastChange = "2020-06-25 11:45:11 +0000";
 layers = (
 {
 components = (
@@ -78529,7 +78527,6 @@ layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 width = 1005;
 }
 );
-leftMetricsKey = seven.numr;
 unicode = 215E;
 },
 {
@@ -101730,6 +101727,9 @@ zero = -8;
 };
 four = {
 two = -10;
+};
+fraction = {
+fourinferior = -70;
 };
 hyphen = {
 "@MMK_R_J" = -30;
