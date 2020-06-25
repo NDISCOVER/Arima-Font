@@ -37,6 +37,19 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
+},
+{
+name = "Variable Font Origin";
+value = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 }
 );
 date = "2020-06-25 15:34:14 +0000";
