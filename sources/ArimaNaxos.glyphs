@@ -1,7 +1,7 @@
 {
 .appVersion = "1340";
 DisplayStrings = (
-"ii/idotbelow/idotaccent"
+"/gcommaaccent"
 );
 classes = (
 {
@@ -24988,40 +24988,18 @@ unicode = 011D;
 },
 {
 glyphname = gcommaaccent;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2020-06-25 12:56:47 +0000";
 layers = (
 {
 components = (
 {
 name = g;
+},
+{
+name = commaturnedabovecomb;
 }
 );
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
-paths = (
-{
-closed = 1;
-nodes = (
-"240 655 OFFCURVE",
-"231 626 OFFCURVE",
-"231 603 CURVE SMOOTH",
-"231 572 OFFCURVE",
-"248 564 OFFCURVE",
-"263 564 CURVE SMOOTH",
-"281 564 OFFCURVE",
-"291 580 OFFCURVE",
-"291 591 CURVE",
-"276 593 OFFCURVE",
-"271 597 OFFCURVE",
-"271 617 CURVE SMOOTH",
-"271 636 OFFCURVE",
-"279 661 OFFCURVE",
-"296 688 CURVE",
-"293 693 OFFCURVE",
-"290 696 OFFCURVE",
-"280 699 CURVE"
-);
-}
-);
 width = 529;
 },
 {
@@ -25100,34 +25078,12 @@ width = 551;
 components = (
 {
 name = g;
+},
+{
+name = commaturnedabovecomb;
 }
 );
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
-paths = (
-{
-closed = 1;
-nodes = (
-"224 749 OFFCURVE",
-"205 710 OFFCURVE",
-"205 667 CURVE SMOOTH",
-"205 602 OFFCURVE",
-"248 581 OFFCURVE",
-"282 581 CURVE SMOOTH",
-"326 581 OFFCURVE",
-"359 615 OFFCURVE",
-"359 658 CURVE",
-"334 665 OFFCURVE",
-"302 683 OFFCURVE",
-"302 722 CURVE SMOOTH",
-"302 738 OFFCURVE",
-"307 761 OFFCURVE",
-"330 793 CURVE",
-"316 807 OFFCURVE",
-"297 815 OFFCURVE",
-"280 817 CURVE"
-);
-}
-);
 width = 547;
 }
 );
@@ -94218,6 +94174,83 @@ width = 600;
 }
 );
 unicode = 0309;
+},
+{
+glyphname = commaturnedabovecomb;
+lastChange = "2020-06-25 12:57:34 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{265, 500}";
+}
+);
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+paths = (
+{
+closed = 1;
+nodes = (
+"240 655 OFFCURVE",
+"231 626 OFFCURVE",
+"231 603 CURVE SMOOTH",
+"231 572 OFFCURVE",
+"248 564 OFFCURVE",
+"263 564 CURVE SMOOTH",
+"281 564 OFFCURVE",
+"291 580 OFFCURVE",
+"291 591 CURVE",
+"276 593 OFFCURVE",
+"271 597 OFFCURVE",
+"271 617 CURVE SMOOTH",
+"271 636 OFFCURVE",
+"279 661 OFFCURVE",
+"296 688 CURVE",
+"293 693 OFFCURVE",
+"290 696 OFFCURVE",
+"280 699 CURVE"
+);
+}
+);
+width = 529;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{286, 522}";
+}
+);
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+paths = (
+{
+closed = 1;
+nodes = (
+"224 749 OFFCURVE",
+"205 710 OFFCURVE",
+"205 667 CURVE SMOOTH",
+"205 602 OFFCURVE",
+"248 581 OFFCURVE",
+"282 581 CURVE SMOOTH",
+"326 581 OFFCURVE",
+"359 615 OFFCURVE",
+"359 658 CURVE",
+"334 665 OFFCURVE",
+"302 683 OFFCURVE",
+"302 722 CURVE SMOOTH",
+"302 738 OFFCURVE",
+"307 761 OFFCURVE",
+"330 793 CURVE",
+"316 807 OFFCURVE",
+"297 815 OFFCURVE",
+"280 817 CURVE"
+);
+}
+);
+width = 547;
+}
+);
+unicode = 0312;
 },
 {
 glyphname = horncomb;
