@@ -25636,8 +25636,8 @@ rightKerningGroup = i;
 unicode = 0069;
 },
 {
-glyphname = dotlessi;
-lastChange = "2020-06-24 17:07:53 +0000";
+glyphname = idotless;
+lastChange = "2020-06-25 11:32:34 +0000";
 layers = (
 {
 anchors = (
@@ -25743,7 +25743,7 @@ layers = (
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = acutecomb;
@@ -25756,7 +25756,7 @@ width = 223;
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = acutecomb;
@@ -25778,7 +25778,7 @@ layers = (
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = caroncomb;
@@ -25791,7 +25791,7 @@ width = 223;
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = caroncomb;
@@ -25813,7 +25813,7 @@ layers = (
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = circumflexcomb;
@@ -25826,7 +25826,7 @@ width = 223;
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = circumflexcomb;
@@ -25848,7 +25848,7 @@ layers = (
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = dieresiscomb;
@@ -25861,7 +25861,7 @@ width = 223;
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = dieresiscomb;
@@ -25918,7 +25918,7 @@ layers = (
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = gravecomb;
@@ -25931,7 +25931,7 @@ width = 223;
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = gravecomb;
@@ -25953,7 +25953,7 @@ layers = (
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = hookabovecomb;
@@ -25966,7 +25966,7 @@ width = 223;
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = hookabovecomb;
@@ -25988,7 +25988,7 @@ layers = (
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = macroncomb;
@@ -26001,7 +26001,7 @@ width = 223;
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = macroncomb;
@@ -26058,7 +26058,7 @@ layers = (
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = tildecomb;
@@ -26071,7 +26071,7 @@ width = 223;
 {
 components = (
 {
-name = dotlessi;
+name = idotless;
 },
 {
 name = tildecomb;
@@ -81446,6 +81446,20 @@ rightKerningGroup = zerowidthnonjoiner;
 unicode = 200C;
 },
 {
+glyphname = CR;
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+width = 600;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+width = 600;
+}
+);
+unicode = 000D;
+},
+{
 glyphname = cedi;
 lastChange = "2015-10-29 13:05:33 +0000";
 layers = (
@@ -101184,6 +101198,19 @@ nodes = (
 width = 600;
 }
 );
+},
+{
+glyphname = NULL;
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+width = 600;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+width = 600;
+}
+);
 }
 );
 instances = (
@@ -101689,7 +101716,7 @@ f = {
 "@MMK_R_s" = -27;
 "@MMK_R_u" = -24;
 "@MMK_R_z" = -10;
-dotlessi = -50;
+idotless = -50;
 hyphen = -68;
 icircumflex = 30;
 idieresis = 60;
@@ -102390,7 +102417,7 @@ f = {
 "@MMK_R_w" = -24.6923;
 "@MMK_R_z" = -34.6923;
 ampersand = -46.9154;
-dotlessi = -8.84615;
+idotless = -8.84615;
 hyphen = -69.6461;
 icircumflex = 54.6923;
 idieresis = 84.6923;
