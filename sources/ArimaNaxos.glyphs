@@ -1,5 +1,8 @@
 {
 .appVersion = "1340";
+DisplayStrings = (
+"ii/idotbelow/idotaccent"
+);
 classes = (
 {
 automatic = 1;
@@ -26103,6 +26106,30 @@ width = 274;
 leftKerningGroup = i;
 rightKerningGroup = i;
 unicode = 00EF;
+},
+{
+glyphname = idotaccent;
+lastChange = "2020-06-25 12:55:22 +0000";
+layers = (
+{
+components = (
+{
+name = i;
+}
+);
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+width = 248;
+},
+{
+components = (
+{
+name = i;
+}
+);
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+width = 274;
+}
+);
 },
 {
 glyphname = idotbelow;
