@@ -1,8 +1,5 @@
 {
 .appVersion = "1340";
-DisplayStrings = (
-"Missing/space Casefold:\012/jdotless \012\012Cannot/space Toggle/space Case:\012/G_tildecomb/g_tildecomb/idotless/idotaccent/a.ss01"
-);
 classes = (
 {
 automatic = 1;
@@ -24060,6 +24057,12 @@ color = 6;
 glyphname = fi;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{314, 0}";
+}
+);
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 paths = (
 {
@@ -24149,6 +24152,12 @@ nodes = (
 width = 571;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{324, 0}";
+}
+);
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 paths = (
 {
@@ -24196,7 +24205,7 @@ nodes = (
 "71 455 CURVE SMOOTH",
 "282 455 LINE SMOOTH",
 "301 455 OFFCURVE",
-"316.992 466.008 OFFCURVE",
+"317 466 OFFCURVE",
 "317.992 488 CURVE SMOOTH",
 "319 520 LINE",
 "309 518 OFFCURVE",
@@ -24249,6 +24258,12 @@ color = 6;
 glyphname = fl;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{330, 0}";
+}
+);
 layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 paths = (
 {
@@ -24321,6 +24336,12 @@ nodes = (
 width = 598;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{344, 0}";
+}
+);
 layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
 paths = (
 {
