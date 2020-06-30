@@ -1,5 +1,8 @@
 {
-.appVersion = "919";
+.appVersion = "1341";
+DisplayStrings = (
+"/acircumflexacute/acircumflexgrave/hcircumflex ¼¾/seveneighths"
+);
 copyright = "Copyright 2015 The Arima Project Authors (info@ndiscovered.com)";
 customParameters = (
 {
@@ -112,7 +115,7 @@ capHeight = 700;
 customParameters = (
 {
 name = shoulderHeight;
-value = 528;
+value = "528";
 },
 {
 name = typoAscender;
@@ -215,7 +218,7 @@ capHeight = 700;
 customParameters = (
 {
 name = shoulderHeight;
-value = 548;
+value = "548";
 },
 {
 name = typoAscender;
@@ -18651,7 +18654,7 @@ unicode = 00E2;
 },
 {
 glyphname = acircumflexacute;
-lastChange = "2016-08-17 22:09:53 +0000";
+lastChange = "2020-06-30 15:03:29 +0000";
 layers = (
 {
 anchors = (
@@ -18763,13 +18766,16 @@ width = 534;
 associatedMasterId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, -26, 0}";
 },
 {
+alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 36, 180}";
 }
@@ -18934,7 +18940,7 @@ unicode = 1EAD;
 },
 {
 glyphname = acircumflexgrave;
-lastChange = "2016-08-18 19:44:04 +0000";
+lastChange = "2020-06-30 15:03:29 +0000";
 layers = (
 {
 components = (
@@ -18982,13 +18988,16 @@ width = 534;
 associatedMasterId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, -54, 0}";
 },
 {
+alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 56, 43}";
 }
@@ -25435,7 +25444,7 @@ unicode = 1E2B;
 },
 {
 glyphname = hcircumflex;
-lastChange = "2015-10-29 13:05:33 +0000";
+lastChange = "2020-06-30 15:03:29 +0000";
 layers = (
 {
 components = (
@@ -25454,9 +25463,11 @@ width = 554;
 associatedMasterId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 components = (
 {
+alignment = -1;
 name = h;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 6, 46}";
 }
@@ -86125,7 +86136,7 @@ annotations = (
 {
 position = "{622, 464}";
 type = Circle;
-width = 160.35;
+width = 160.35001;
 }
 );
 background = {
@@ -87323,7 +87334,7 @@ annotations = (
 {
 position = "{622, 464}";
 type = Circle;
-width = 160.35;
+width = 160.35001;
 }
 );
 associatedMasterId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
@@ -146377,7 +146388,7 @@ unicode = 2154;
 },
 {
 glyphname = onequarter;
-lastChange = "2016-02-19 16:04:39 +0000";
+lastChange = "2020-06-30 15:03:29 +0000";
 layers = (
 {
 components = (
@@ -146399,13 +146410,16 @@ width = 889;
 {
 components = (
 {
+alignment = -1;
 name = onesuperior;
 },
 {
+alignment = -1;
 name = fraction;
 transform = "{1, 0, 0, 1, 351, 0}";
 },
 {
+alignment = -1;
 name = fourinferior;
 transform = "{1, 0, 0, 1, 525, 0}";
 }
@@ -146419,7 +146433,7 @@ unicode = 00BC;
 },
 {
 glyphname = threequarters;
-lastChange = "2016-02-19 16:04:39 +0000";
+lastChange = "2020-06-30 15:03:29 +0000";
 layers = (
 {
 components = (
@@ -146441,13 +146455,16 @@ width = 984;
 {
 components = (
 {
+alignment = -1;
 name = threesuperior;
 },
 {
+alignment = -1;
 name = fraction;
 transform = "{1, 0, 0, 1, 429, 0}";
 },
 {
+alignment = -1;
 name = fourinferior;
 transform = "{1, 0, 0, 1, 603, 0}";
 }
@@ -146587,7 +146604,7 @@ unicode = 215D;
 },
 {
 glyphname = seveneighths;
-lastChange = "2016-02-19 16:04:40 +0000";
+lastChange = "2020-06-30 15:03:29 +0000";
 layers = (
 {
 components = (
@@ -146609,13 +146626,16 @@ width = 958;
 {
 components = (
 {
+alignment = -1;
 name = sevensuperior;
 },
 {
+alignment = -1;
 name = fraction;
 transform = "{1, 0, 0, 1, 331, 0}";
 },
 {
+alignment = -1;
 name = eightinferior;
 transform = "{1, 0, 0, 1, 538, 0}";
 }
@@ -197613,7 +197633,7 @@ weightClass = Thin;
 customParameters = (
 {
 name = weightClass;
-value = "275";
+value = 275;
 },
 {
 name = "TTFAutohint options";
@@ -197622,8 +197642,8 @@ value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hi
 );
 interpolationWeight = 45;
 instanceInterpolations = {
-"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 0.884615;
-"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 0.115385;
+"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 0.88462;
+"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 0.11538;
 };
 name = ExtraLight;
 weightClass = ExtraLight;
@@ -197637,8 +197657,8 @@ value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hi
 );
 interpolationWeight = 65;
 instanceInterpolations = {
-"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 0.730769;
-"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 0.269231;
+"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 0.73077;
+"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 0.26923;
 };
 name = Light;
 weightClass = Light;
@@ -197652,8 +197672,8 @@ value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hi
 );
 interpolationWeight = 90;
 instanceInterpolations = {
-"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 0.538462;
-"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 0.461538;
+"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 0.53846;
+"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 0.46154;
 };
 name = Regular;
 },
@@ -197666,8 +197686,8 @@ value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hi
 );
 interpolationWeight = 103;
 instanceInterpolations = {
-"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 0.438462;
-"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 0.561538;
+"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 0.43846;
+"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 0.56154;
 };
 name = Medium;
 weightClass = Medium;
@@ -197681,8 +197701,8 @@ value = "--hinting-range-min=7 --hinting-range-max=28 --default-script=latn --hi
 );
 interpolationWeight = 135;
 instanceInterpolations = {
-"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 0.192308;
-"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 0.807692;
+"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 0.19231;
+"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = 0.80769;
 };
 name = "Semi Bold";
 weightClass = SemiBold;
@@ -198731,9 +198751,9 @@ P = {
 "@MMK_R_A" = -41.1769;
 "@MMK_R_AE" = -60.0846;
 "@MMK_R_J" = -2.12308;
-"@MMK_R_O" = -0.884615;
+"@MMK_R_O" = -0.88462;
 "@MMK_R_T" = -1.76923;
-"@MMK_R_Z" = -0.884615;
+"@MMK_R_Z" = -0.88462;
 "@MMK_R_a" = -20.9923;
 "@MMK_R_o" = -25.7;
 "@MMK_R_period" = -123.538;
