@@ -111497,20 +111497,6 @@ width = 335;
 );
 },
 {
-color = 6;
-glyphname = "uMatra-tamil.long";
-layers = (
-{
-layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
-width = 600;
-},
-{
-layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
-width = 600;
-}
-);
-},
-{
 glyphname = "candrabindu-malayalam";
 layers = (
 {
