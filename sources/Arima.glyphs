@@ -1,9 +1,5 @@
 {
 .appVersion = "1342";
-DisplayStrings = (
-"/a-malayalam/aa-malayalam/i-malayalam/ii-malayalam/u-malayalam/uu-malayalam/rVocalic-malayalam/lVocalic-malayalam/e-malayalam/ee-malayalam/ai-malayalam pg/o-malayalam/oo-malayalam/au-malayalam/ka-malayalam/kha-malayalam/ga-malayalam/gha-malayalam/nga-malayalam/ca-malayalam/cha-malayalam/ja-malayalam/jha-malayalam/nya-malayalam/tta-malayalam/ttha-malayalam/dda-malayalam/ddha-malayalam/nna-malayalam/ta-malayalam/tha-malayalam/da-malayalam/dha-malayalam/na-malayalam/nnna-malayalam/pa-malayalam/pha-malayalam/ba-malayalam/bha-malayalam/ma-malayalam/ya-malayalam/ra-malayalam/rra-malayalam/la-malayalam/lla-malayalam/llla-malayalam/va-malayalam/sha-malayalam/ssa-malayalam/sa-malayalam/ha-malayalam/ttta-malayalam/avagraha-malayalam/dotreph-malayalam/rrVocalic-malayalam/llVocalic-malayalam/nnChillu-malayalam/nChillu-malayalam/rrChillu-malayalam/lChillu-malayalam/llChillu-malayalam/kChillu-malayalam/ya-malayalam.alt/va-malayalam.alt/ka-malayalam.below/ga-malayalam.below/gha-malayalam.below/nga-malayalam.below/ca-malayalam.below/cha-malayalam.below/ja-malayalam.below/jha-malayalam.below/nya-malayalam.below/tta-malayalam.below/ttha-malayalam.below/dda-malayalam.below/ddha-malayalam.below/nna-malayalam.below/ta-malayalam.below/tha-malayalam.below/da-malayalam.below/dha-malayalam.below/na-malayalam.below/nnna-malayalam.below/pa-malayalam.below/pha-malayalam.below/ba-malayalam.below/bha-malayalam.below/ma-malayalam.below/rra-malayalam.below/la-malayalam.below/lla-malayalam.below/llla-malayalam.below/sha-malayalam.below/ssa-malayalam.below/sa-malayalam.below/ha-malayalam.below/ttta-malayalam.below/k_ka-malayalam/k_ta-malayalam/k_ssa-malayalam/g_ga-malayalam/g_na-malayalam/g_ma-malayalam/ng_ka-malayalam/ng_nga-malayalam/ca-malayalam/c_ca-malayalam/c_cha-malayalam/j_ja-malayalam/j_nya-malayalam/ny_ca-malayalam/ny_nya-malayalam/tt_tta-malayalam/dd_dda-malayalam/nn_tta-malayalam/nn_dda-malayalam/nn_nna-malayalam/nn_ma-malayalam/t_ta-malayalam/t_tha-malayalam/t_bha-malayalam/t_ma-malayalam/t_sa-malayalam/d_da-malayalam/d_dha-malayalam/n_ta-malayalam/n_tha-malayalam/n_da-malayalam/n_dha-malayalam/n_na-malayalam/n_ma-malayalam/p_pa-malayalam/b_da-malayalam/b_dha-malayalam/b_ba-malayalam/m_pa-malayalam/m_ma-malayalam/y_ya-malayalam/s__rr_rra-malayalam/rr_rra-malayalam/ll_lla-malayalam/v_va-malayalam/sh_ca-malayalam/sh_sha-malayalam/ss_tta-malayalam/s_tha-malayalam/s_sa-malayalam/h_na-malayalam/h_ma-malayalam/nChillu_rra-malayalam/ka_uMatra-malayalam/ra_uMatra-malayalam",
-"/a-tamil/aa-tamil/i-tamil/ii-tamil/u-tamil/uu-tamil/e-tamil/ee-tamil/ai-tamil/o-tamil/oo-tamil/lla-tamil/au-tamil/ka-tamil/nga-tamil/ca-tamil pg/ja-tamil/nya-tamil/tta-tamil/nna-tamil/ta-tamil/na-tamil/nnna-tamil/pa-tamil/ma-tamil/ya-tamil/ra-tamil/rra-tamil/la-tamil/lla-tamil/llla-tamil/va-tamil/sha-tamil/ssa-tamil/sa-tamil/ha-tamil/aaMatra-tamil/om-tamil/aytham-tamil/k_ssa-tamil/sh_ra_iiMatra-tamil/ka_uMatra-tamil/ka_uuMatra-tamil/nga_uuMatra-tamil/ca_uMatra-tamil/ca_uuMatra-tamil/nya_uMatra-tamil/tta_iMatra-tamil/tta_iiMatra-tamil/tta_uMatra-tamil/tta_uuMatra-tamil/nna_uMatra-tamil/ta_uMatra-tamil/na_uMatra-tamil/nnna_uMatra-tamil/pa_uuMatra-tamil/ma_uMatra-tamil/ma_uuMatra-tamil/ya_uuMatra-tamil/ra_uMatra-tamil/ra_uuMatra-tamil/rra_uMatra-tamil/la_uMatra-tamil/lla_uMatra-tamil/lla_uuMatra-tamil/llla_uMatra-tamil/llla_uuMatra-tamil/va_uuMatra-tamil"
-);
 classes = (
 {
 automatic = 1;
@@ -122682,7 +122678,7 @@ two = -13.7077;
 };
 manufacturer = NDISCOVER;
 manufacturerURL = "https://www.ndiscover.com";
-unitsPerEm = 1000;
+unitsPerEm = 2000;
 userData = {
 GSDimensionPlugin.Dimensions = {
 "60CFBDE8-BC08-4808-BF41-F011F3E03A54" = {
