@@ -121185,6 +121185,7 @@ x = -33;
 "@MMK_R_tau" = -40;
 "@MMK_R_rho" = -90;
 "@MMK_R_chi" = -60;
+"@MMK_R_eta" = 0;
 };
 "@MMK_L_W" = {
 "@MMK_R_A" = -15;
@@ -121978,6 +121979,7 @@ x = -13.1692;
 "@MMK_R_nu" = -20;
 "@MMK_R_pi" = -20;
 "@MMK_R_tau" = -10;
+"@MMK_R_Alpha" = 0;
 };
 "@MMK_L_Omicron" = {
 "@MMK_R_Alpha" = -20;
