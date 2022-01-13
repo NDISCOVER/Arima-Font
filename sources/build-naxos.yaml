@@ -1,0 +1,6 @@
+sources:
+  - ArimaNaxos.glyphs
+familyName: Arima Naxos
+outputDir: ../fonts/Naxos
+axisOrder:
+  - wght
