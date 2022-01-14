@@ -5,5 +5,7 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
-Natanael Gana <info@ndiscover.com>
+Natanael Gama <info@ndiscover.com>
 Joana Correia <info@novatypefoundry.com>
+Rosalie Wagner <mail@rosaliewagner.com>
+
