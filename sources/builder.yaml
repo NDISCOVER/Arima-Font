@@ -1,0 +1,9 @@
+sources:
+  - Arima.glyphs
+familyName: Arima
+outputDir: ../fonts
+buildStatic: false
+buildVariable: true
+buildTTF: true
+buildOTF: false
+buildWebfont: false
