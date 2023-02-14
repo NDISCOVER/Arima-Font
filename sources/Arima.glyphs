@@ -4,7 +4,10 @@
 DisplayStrings = (
 "ൻ ൻ്റ",
 "്",
-"റ"
+"റ",
+"ന്ത്ര്യ",
+"ஆ",
+"ஆ"
 );
 axes = (
 {
@@ -804,7 +807,6 @@ lookup Akhn_malayalam {
 tag = akhn;
 },
 {
-automatic = 1;
 code = "script mlm2;
 lookup rakar_malayalam {
 	sub halant-malayalam ra-malayalam by rakar-malayalam;
@@ -813,7 +815,6 @@ lookup rakar_malayalam {
 tag = rkrf;
 },
 {
-automatic = 1;
 code = "script mlm2;
 sub halant-malayalam ra-malayalam by rakar-malayalam;
 ";
@@ -830,11 +831,8 @@ tag = abvs;
 },
 {
 code = "script mlm2;
-sub halant-malayalam ya-malayalam by ya-malayalam.alt;
-sub halant-malayalam va-malayalam by va-malayalam.alt;
 sub ya-malayalam ya-malayalam.alt by y_ya-malayalam;
 sub va-malayalam va-malayalam.alt by v_va-malayalam;
-sub halant-malayalam ra-malayalam by rakar-malayalam;
 
 script taml;
 language dflt;
@@ -980,6 +978,14 @@ lookup ccmp_taml_1;
 
 ";
 tag = haln;
+},
+{
+code = "script mlm2;
+sub halant-malayalam ya-malayalam by ya-malayalam.alt;
+sub halant-malayalam va-malayalam by va-malayalam.alt;
+sub halant-malayalam ra-malayalam by rakar-malayalam;
+";
+tag = pstf;
 }
 );
 fontMaster = (
@@ -177998,7 +178004,7 @@ color = 9;
 glyphname = "aa-tamil";
 kernLeft = "a-tamil";
 kernRight = "aa-tamil";
-lastChange = "2022-04-22 12:45:59 +0000";
+lastChange = "2023-02-14 12:55:30 +0000";
 layers = (
 {
 background = {
@@ -178156,16 +178162,16 @@ nodes = (
 (905,112,o),
 (869,77,o),
 (853,34,c),
-(852,511,l),
+(853,511,l),
 (852,525,o),
 (845,533,o),
 (833,533,cs),
 (824,533,o),
 (819,529,o),
 (815,525,c),
-(826,488,o),
-(821,506,o),
-(821,335,cs),
+(821,512,o),
+(822,502,o),
+(822,335,cs),
 (822,-50,ls),
 (822,-74,o),
 (823,-90,o),
@@ -319732,7 +319738,7 @@ weightClass = 700;
 },
 {
 axesValues = (
-0
+30
 );
 customParameters = (
 {
@@ -319741,8 +319747,7 @@ value = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 }
 );
 instanceInterpolations = {
-"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 1.23077;
-"EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8" = -0.23077;
+"60CFBDE8-BC08-4808-BF41-F011F3E03A54" = 1;
 };
 name = Regular;
 type = variable;
