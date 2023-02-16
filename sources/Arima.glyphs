@@ -2,12 +2,49 @@
 .appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
-"ൻ ൻ്റ",
-"്",
-"റ",
-"ന്ത്ര്യ",
-"ஆ",
-"ஆ"
+"ക്ക ച്ച ട്ട ത്ത പ്പ
+ഗ്ഗ ജ്ജ ഡ്ഡ ദ്ദ ബ്ബ
+ങ്ങ ഞ്ഞ ണ്ണ ന്ന മ്മ
+യ്യ ല്ല വ്വ ശ്ശ സ്സ
+ള്ള ക്ത ക്ഷ ച്ഛ ത്ഥ
+ത്ന ത്മ ഗ്ദ ഗ്ന ജ്ഞ
+ഡ്ഢ ദ്ധ ങ്ക ഞ്ച ഞ്ഛ
+ഞ്ജ ണ്ട ണ്ഠ ണ്ഡ ന്ത
+ന്ഥ ന്ദ ന്ധ ന്റ മ്പ
+ശ്ച സ്ത സ്ഥ സ്ന സ്റ്റ
+ഹ്ന ഹ്മ റ്റ പ്ന ക്ട
+ബ്ദ യ്പ ഷ്ഠ ഷ്ട ഷ്ണ
+ഷ്മ ഘ്ന സ്പ ല്പ ത്സ
+ശ്മ പ്ത ണ്മ ഫ്റ്റ യ്ക
+യ്ത ശ്ന സ്ക ഗ്മ യ്ക്ക
+പ്സ സ്ഫ ഷ്പ
+",
+"/dda_ddha-malayalam",
+"",
+"/ka_tta-malayalam 
+/gha_na-malayalam 
+/nna_ttha-malayalam 
+/pa_ta-malayalam 
+/pa_na-malayalam 
+/pa_sa-malayalam 
+/pha_rra_rra-malayalam 
+/ya_ka-malayalam 
+/ya_k_ka-malayalam 
+/ya_ta-malayalam 
+/ya_pa-malayalam 
+/la_pa-malayalam 
+/sha_na-malayalam 
+/sha_ma-malayalam 
+/ssa_ttha-malayalam 
+/ssa_nna-malayalam 
+/ssa_pa-malayalam 
+/ssa_ma-malayalam 
+/sa_ka-malayalam 
+/sa_ta-malayalam 
+/sa_na-malayalam 
+/sa_pa-malayalam 
+/sa_pha-malayalam 
+"
 );
 axes = (
 {
@@ -802,6 +839,30 @@ lookup Akhn_malayalam {
 	sub sha-malayalam halant-malayalam sha-malayalam by sh_sha-malayalam;
 	sub ssa-malayalam halant-malayalam tta-malayalam by ss_tta-malayalam;
 	sub nna-malayalam halant-malayalam ddha-malayalam by nn_ddha-malayalam;
+	sub dda-malayalam halant-malayalam ddha-malayalam by dda_ddha-malayalam;
+	sub nna-malayalam halant-malayalam ttha-malayalam by nna_ttha-malayalam;
+	sub sa-malayalam halant-malayalam ta-malayalam by sa_ta-malayalam;
+	sub sa-malayalam halant-malayalam na-malayalam by sa_na-malayalam;
+	sub pa-malayalam halant-malayalam na-malayalam by pa_na-malayalam;
+	sub ka-malayalam halant-malayalam tta-malayalam by ka_tta-malayalam;
+	sub ya-malayalam halant-malayalam pa-malayalam by ya_pa-malayalam;
+	sub ssa-malayalam halant-malayalam ttha-malayalam by ssa_ttha-malayalam;
+	sub ssa-malayalam halant-malayalam nna-malayalam by ssa_nna-malayalam;
+	sub ssa-malayalam halant-malayalam ma-malayalam by ssa_ma-malayalam;
+	sub gha-malayalam halant-malayalam na-malayalam by gha_na-malayalam;
+	sub sa-malayalam halant-malayalam pa-malayalam by sa_pa-malayalam;
+	sub la-malayalam halant-malayalam pa-malayalam by la_pa-malayalam;
+	sub sha-malayalam halant-malayalam ma-malayalam by sha_ma-malayalam;
+	sub pa-malayalam halant-malayalam ta-malayalam by pa_ta-malayalam;
+	sub pha-malayalam halant-malayalam rra-malayalam halant-malayalam rra-malayalam by pha_rra_rra-malayalam;
+	sub ya-malayalam halant-malayalam ka-malayalam by ya_ka-malayalam;
+	sub ya-malayalam halant-malayalam ta-malayalam by ya_ta-malayalam;
+	sub sha-malayalam halant-malayalam na-malayalam by sha_na-malayalam;
+	sub sa-malayalam halant-malayalam ka-malayalam by sa_ka-malayalam;
+	sub ya-malayalam halant-malayalam ka-malayalam halant-malayalam ka-malayalam by ya_k_ka-malayalam;
+	sub pa-malayalam halant-malayalam sa-malayalam by pa_sa-malayalam;
+	sub sa-malayalam halant-malayalam pha-malayalam by sa_pha-malayalam;
+	sub ssa-malayalam halant-malayalam pa-malayalam by ssa_pa-malayalam;
 } Akhn_malayalam;
 ";
 tag = akhn;
@@ -986,6 +1047,15 @@ sub halant-malayalam va-malayalam by va-malayalam.alt;
 sub halant-malayalam ra-malayalam by rakar-malayalam;
 ";
 tag = pstf;
+},
+{
+code = "script mlym;
+sub la-malayalam halant-malayalam by la-malayalam.below;
+
+script mlm2;
+sub halant-malayalam la-malayalam by la-malayalam.below;
+";
+tag = blwf;
 }
 );
 fontMaster = (
@@ -75941,6 +76011,433 @@ metricLeft = "ra-malayalam";
 metricRight = "ma-malayalam";
 },
 {
+glyphname = "k_ka-malayalam.below";
+kernLeft = "ka-malayalam.below";
+kernRight = "ra-malayalam.below";
+lastChange = "2023-02-15 15:25:13 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom_1;
+pos = (-760,-369);
+},
+{
+name = bottom_2;
+pos = (-234,-369);
+},
+{
+name = caret_1;
+pos = (-510,-369);
+}
+);
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-805,-376,o),
+(-747,-353,o),
+(-747,-261,c),
+(-766,-256,l),
+(-766,-339,o),
+(-814,-359,o),
+(-861,-359,cs),
+(-927,-359,o),
+(-954,-322,o),
+(-954,-284,cs),
+(-954,-236,o),
+(-915,-212,o),
+(-842,-212,cs),
+(-351,-212,ls),
+(-275,-212,o),
+(-239,-248,o),
+(-239,-292,cs),
+(-239,-334,o),
+(-275,-357,o),
+(-322,-357,cs),
+(-401,-357,o),
+(-429,-294,o),
+(-429,-233,cs),
+(-429,-129,o),
+(-362,-72,o),
+(-237,-72,cs),
+(-127,-72,o),
+(-68,-125,o),
+(-68,-221,cs),
+(-68,-290,o),
+(-105,-362,o),
+(-189,-358,c),
+(-196,-365,o),
+(-194,-376,o),
+(-169,-376,cs),
+(-109,-376,o),
+(-40,-321,o),
+(-40,-221,cs),
+(-40,-111,o),
+(-111,-54,o),
+(-235,-54,cs),
+(-375,-54,o),
+(-451,-116,o),
+(-451,-234,cs),
+(-451,-310,o),
+(-408,-376,o),
+(-321,-376,cs),
+(-261,-376,o),
+(-213,-348,o),
+(-213,-292,cs),
+(-213,-236,o),
+(-261,-195,o),
+(-350,-195,cs),
+(-844,-195,ls),
+(-931,-195,o),
+(-981,-227,o),
+(-981,-283,cs),
+(-981,-333,o),
+(-942,-376,o),
+(-862,-376,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(-552,-376,o),
+(-505,-319,o),
+(-505,-214,cs),
+(-505,-109,o),
+(-552,-54,o),
+(-638,-54,cs),
+(-724,-54,o),
+(-770,-109,o),
+(-770,-214,cs),
+(-770,-320,o),
+(-724,-376,o),
+(-638,-376,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(-710,-359,o),
+(-748,-307,o),
+(-748,-215,cs),
+(-748,-121,o),
+(-709,-71,o),
+(-639,-71,cs),
+(-569,-71,o),
+(-532,-122,o),
+(-532,-215,cs),
+(-532,-308,o),
+(-569,-359,o),
+(-639,-359,cs)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 58;
+verticalShift = -369;
+weight = -3;
+width = 74;
+};
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = bottom_1;
+pos = (-937,-421);
+},
+{
+name = bottom_2;
+pos = (-323,-421);
+},
+{
+name = caret_1;
+pos = (-625,-421);
+}
+);
+background = {
+shapes = (
+{
+closed = 0;
+nodes = (
+(-390,210,l),
+(-390,464,o),
+(-183,516,o),
+(-87,516,cs),
+(29,516,o),
+(111,440,o),
+(111,279,cs),
+(111,169,o),
+(73,62,o),
+(-19,45,c),
+(-34,20,o),
+(-30,-15,o),
+(33,-15,cs),
+(150,-15,o),
+(261,107,o),
+(261,284,cs),
+(261,496,o),
+(101,566,o),
+(-61,566,cs),
+(-272,566,o),
+(-445,446,o),
+(-445,203,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(-597,-12,o),
+(-517,85,o),
+(-517,266,cs),
+(-517,469,o),
+(-598,566,o),
+(-726,566,cs),
+(-855,566,o),
+(-913,468,o),
+(-913,266,cs),
+(-913,78,o),
+(-851,-12,o),
+(-726,-12,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(-820,32,o),
+(-859,113,o),
+(-859,266,cs),
+(-859,440,o),
+(-820,522,o),
+(-758,522,cs),
+(-696,522,o),
+(-667,438,o),
+(-667,266,cs),
+(-667,115,o),
+(-696,32,o),
+(-758,32,cs)
+);
+},
+{
+closed = 0;
+nodes = (
+(-425,41,l),
+(-407,6,o),
+(-365,-12,o),
+(-309,-12,cs),
+(-195,-12,o),
+(-101,63,o),
+(-101,174,cs),
+(-101,294,o),
+(-211,327,o),
+(-344,327,cs),
+(-1013,327,ls),
+(-1154,327,o),
+(-1236,267,o),
+(-1236,161,cs),
+(-1236,66,o),
+(-1171,-12,o),
+(-1035,-12,cs),
+(-932,-12,o),
+(-868,32,o),
+(-868,202,c),
+(-913,266,l),
+(-913,89,o),
+(-946,32,o),
+(-1008,32,cs),
+(-1073,32,o),
+(-1086,94,o),
+(-1086,153,cs),
+(-1086,243,o),
+(-1055,283,o),
+(-963,283,cs),
+(-380,283,ls),
+(-285,283,o),
+(-251,238,o),
+(-251,158,cs),
+(-251,98,o),
+(-270,32,o),
+(-324,32,cs),
+(-355,32,o),
+(-391,57,o),
+(-391,132,c)
+);
+}
+);
+};
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-989,-428,o),
+(-941,-400,o),
+(-941,-295,c),
+(-982,-224,l),
+(-982,-348,o),
+(-1000,-394,o),
+(-1049,-394,cs),
+(-1093,-394,o),
+(-1096,-356,o),
+(-1096,-332,cs),
+(-1096,-272,o),
+(-1078,-250,o),
+(-1007,-250,cs),
+(-560,-250,ls),
+(-485,-250,o),
+(-473,-280,o),
+(-473,-311,cs),
+(-473,-338,o),
+(-482,-372,o),
+(-518,-372,cs),
+(-537,-372,o),
+(-566,-363,o),
+(-566,-299,cs),
+(-566,-203,o),
+(-500,-133,o),
+(-371,-121,cs),
+(-248,-109,o),
+(-175,-160,o),
+(-175,-247,cs),
+(-175,-300,o),
+(-202,-356,o),
+(-269,-379,c),
+(-282,-402,o),
+(-279,-431,o),
+(-221,-431,cs),
+(-119,-431,o),
+(-26,-344,o),
+(-26,-239,cs),
+(-26,-106,o),
+(-174,-79,o),
+(-299,-79,cs),
+(-511,-79,o),
+(-616,-156,o),
+(-616,-288,cs),
+(-616,-372,o),
+(-573,-428,o),
+(-480,-428,cs),
+(-393,-428,o),
+(-323,-380,o),
+(-323,-319,cs),
+(-323,-254,o),
+(-397,-216,o),
+(-525,-216,cs),
+(-1059,-216,ls),
+(-1177,-216,o),
+(-1246,-253,o),
+(-1246,-320,cs),
+(-1246,-380,o),
+(-1191,-428,o),
+(-1076,-428,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(-725,-428,o),
+(-657,-376,o),
+(-657,-259,cs),
+(-657,-140,o),
+(-726,-79,o),
+(-830,-79,cs),
+(-934,-79,o),
+(-980,-139,o),
+(-980,-259,cs),
+(-980,-380,o),
+(-933,-428,o),
+(-830,-428,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(-904,-394,o),
+(-931,-354,o),
+(-931,-259,cs),
+(-931,-163,o),
+(-904,-114,o),
+(-864,-114,cs),
+(-825,-114,o),
+(-807,-161,o),
+(-807,-259,cs),
+(-807,-349,o),
+(-823,-394,o),
+(-864,-394,cs)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 58;
+verticalShift = -421;
+width = 79;
+};
+};
+width = 41;
+}
+);
+metricRight = "ka-malayalam.below";
+userData = {
+RMXScaler = {
+source = "k_ka-malayalam";
+};
+};
+},
+{
+glyphname = "rr_rra-malayalam.below";
+kernLeft = "ra-malayalam";
+kernRight = "ra-malayalam";
+lastChange = "2023-02-15 15:35:05 +0000";
+layers = (
+{
+anchors = (
+{
+name = caret_1;
+pos = (299,0);
+}
+);
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+alignment = -1;
+pos = (-441,0);
+ref = "rra-malayalam.below";
+},
+{
+ref = "rra-malayalam.below";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (295,0);
+}
+);
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+alignment = -1;
+pos = (-485,0);
+ref = "rra-malayalam.below";
+},
+{
+ref = "rra-malayalam.below";
+}
+);
+width = 0;
+}
+);
+metricLeft = "rr-malayalam";
+metricRight = "rra-malayalam";
+},
+{
 category = Letter;
 glyphname = "rakar-malayalam";
 lastChange = "2022-03-22 12:15:27 +0000";
@@ -132206,6 +132703,614 @@ source = "ttta-malayalam";
 };
 },
 {
+glyphname = "ka_tta-malayalam";
+lastChange = "2023-02-16 10:54:41 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "ka-malayalam";
+},
+{
+pos = (993,0);
+ref = "tta-malayalam.below";
+}
+);
+width = 993;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "ka-malayalam";
+},
+{
+pos = (1090,0);
+ref = "tta-malayalam.below";
+}
+);
+width = 1090;
+}
+);
+},
+{
+glyphname = "gha_na-malayalam";
+lastChange = "2023-02-16 10:55:11 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "gha-malayalam";
+},
+{
+pos = (1096,0);
+ref = "na-malayalam.below";
+}
+);
+width = 1096;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "gha-malayalam";
+},
+{
+pos = (1295,0);
+ref = "na-malayalam.below";
+}
+);
+width = 1295;
+}
+);
+},
+{
+glyphname = "dda_ddha-malayalam";
+lastChange = "2023-02-16 10:40:19 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "dda-malayalam";
+},
+{
+pos = (1054,0);
+ref = "ddha-malayalam.below";
+}
+);
+width = 1054;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "dda-malayalam";
+},
+{
+pos = (1207,0);
+ref = "ddha-malayalam.below";
+}
+);
+width = 1207;
+}
+);
+},
+{
+glyphname = "nna_ttha-malayalam";
+lastChange = "2023-02-16 10:55:29 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "nna-malayalam";
+},
+{
+pos = (1276,0);
+ref = "ttha-malayalam.below";
+}
+);
+width = 1276;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "nna-malayalam";
+},
+{
+pos = (1585,0);
+ref = "ttha-malayalam.below";
+}
+);
+width = 1585;
+}
+);
+},
+{
+glyphname = "pa_ta-malayalam";
+lastChange = "2023-02-16 10:55:43 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "pa-malayalam";
+},
+{
+pos = (698,0);
+ref = "ta-malayalam.below";
+}
+);
+width = 698;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "pa-malayalam";
+},
+{
+pos = (801,0);
+ref = "ta-malayalam.below";
+}
+);
+width = 801;
+}
+);
+},
+{
+glyphname = "pa_na-malayalam";
+lastChange = "2023-02-16 10:55:58 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "pa-malayalam";
+},
+{
+pos = (698,0);
+ref = "na-malayalam.below";
+}
+);
+width = 698;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "pa-malayalam";
+},
+{
+pos = (801,0);
+ref = "na-malayalam.below";
+}
+);
+width = 801;
+}
+);
+},
+{
+glyphname = "pa_sa-malayalam";
+lastChange = "2023-02-16 10:56:14 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "pa-malayalam";
+},
+{
+pos = (698,0);
+ref = "sa-malayalam.below";
+}
+);
+width = 698;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "pa-malayalam";
+},
+{
+pos = (801,0);
+ref = "sa-malayalam.below";
+}
+);
+width = 801;
+}
+);
+},
+{
+glyphname = "pha_rra_rra-malayalam";
+lastChange = "2023-02-16 10:56:34 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "pha-malayalam";
+},
+{
+pos = (987,0);
+ref = "rr_rra-malayalam.below";
+}
+);
+width = 987;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "pha-malayalam";
+},
+{
+pos = (1131,0);
+ref = "rr_rra-malayalam.below";
+}
+);
+width = 1131;
+}
+);
+},
+{
+glyphname = "ya_ka-malayalam";
+lastChange = "2023-02-16 10:56:51 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "ya-malayalam";
+},
+{
+pos = (908,0);
+ref = "ka-malayalam.below";
+}
+);
+width = 908;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "ya-malayalam";
+},
+{
+pos = (1083,0);
+ref = "ka-malayalam.below";
+}
+);
+width = 1083;
+}
+);
+},
+{
+glyphname = "ya_k_ka-malayalam";
+lastChange = "2023-02-16 10:57:18 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "ya-malayalam";
+},
+{
+pos = (908,0);
+ref = "k_ka-malayalam.below";
+}
+);
+width = 908;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "ya-malayalam";
+},
+{
+pos = (1083,0);
+ref = "k_ka-malayalam.below";
+}
+);
+width = 1124;
+}
+);
+},
+{
+glyphname = "ya_ta-malayalam";
+lastChange = "2023-02-16 10:57:41 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "ya-malayalam";
+},
+{
+pos = (908,0);
+ref = "ta-malayalam.below";
+}
+);
+width = 908;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "ya-malayalam";
+},
+{
+pos = (1083,0);
+ref = "ta-malayalam.below";
+}
+);
+width = 1083;
+}
+);
+},
+{
+glyphname = "ya_pa-malayalam";
+lastChange = "2023-02-16 10:57:54 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "ya-malayalam";
+},
+{
+pos = (908,0);
+ref = "pa-malayalam.below";
+}
+);
+width = 908;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "ya-malayalam";
+},
+{
+pos = (1083,0);
+ref = "pa-malayalam.below";
+}
+);
+width = 1083;
+}
+);
+},
+{
+glyphname = "la_pa-malayalam";
+lastChange = "2023-02-16 10:59:05 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "la-malayalam";
+},
+{
+pos = (727,0);
+ref = "pa-malayalam.below";
+}
+);
+width = 727;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "la-malayalam";
+},
+{
+pos = (908,0);
+ref = "pa-malayalam.below";
+}
+);
+width = 908;
+}
+);
+},
+{
+glyphname = "sha_na-malayalam";
+lastChange = "2023-02-16 10:59:18 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "sha-malayalam";
+},
+{
+pos = (938,0);
+ref = "na-malayalam.below";
+}
+);
+width = 938;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "sha-malayalam";
+},
+{
+pos = (1015,0);
+ref = "na-malayalam.below";
+}
+);
+width = 1015;
+}
+);
+},
+{
+glyphname = "sha_ma-malayalam";
+lastChange = "2023-02-16 10:59:44 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "sha-malayalam";
+},
+{
+pos = (938,0);
+ref = "ma-malayalam.below";
+}
+);
+width = 938;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "sha-malayalam";
+},
+{
+pos = (1015,0);
+ref = "ma-malayalam.below";
+}
+);
+width = 1015;
+}
+);
+},
+{
+glyphname = "ssa_ttha-malayalam";
+lastChange = "2023-02-16 10:59:59 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "ssa-malayalam";
+},
+{
+pos = (937,0);
+ref = "ttha-malayalam.below";
+}
+);
+width = 937;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "ssa-malayalam";
+},
+{
+pos = (1119,0);
+ref = "ttha-malayalam.below";
+}
+);
+width = 1119;
+}
+);
+},
+{
+glyphname = "ssa_nna-malayalam";
+lastChange = "2023-02-16 11:02:27 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "ssa-malayalam";
+},
+{
+pos = (937,0);
+ref = "nna-malayalam.below";
+}
+);
+width = 937;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "ssa-malayalam";
+},
+{
+pos = (1119,0);
+ref = "nna-malayalam.below";
+}
+);
+width = 1119;
+}
+);
+},
+{
+glyphname = "ssa_pa-malayalam";
+lastChange = "2023-02-16 11:02:43 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "ssa-malayalam";
+},
+{
+pos = (937,0);
+ref = "pa-malayalam.below";
+}
+);
+width = 937;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "ssa-malayalam";
+},
+{
+pos = (1119,0);
+ref = "pa-malayalam.below";
+}
+);
+width = 1119;
+}
+);
+},
+{
+glyphname = "ssa_ma-malayalam";
+lastChange = "2023-02-16 11:02:55 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "ssa-malayalam";
+},
+{
+pos = (937,0);
+ref = "ma-malayalam.below";
+}
+);
+width = 937;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "ssa-malayalam";
+},
+{
+pos = (1119,0);
+ref = "ma-malayalam.below";
+}
+);
+width = 1119;
+}
+);
+},
+{
 glyphname = "s__rr_rra-malayalam";
 kernLeft = "ra-malayalam";
 kernRight = "ra-malayalam";
@@ -132408,6 +133513,166 @@ width = 1250;
 );
 metricLeft = "s-malayalam";
 metricRight = "rra-malayalam";
+},
+{
+glyphname = "sa_ka-malayalam";
+lastChange = "2023-02-16 11:03:21 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "sa-malayalam";
+},
+{
+pos = (1092,0);
+ref = "ka-malayalam.below";
+}
+);
+width = 1092;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "sa-malayalam";
+},
+{
+pos = (1242,0);
+ref = "ka-malayalam.below";
+}
+);
+width = 1242;
+}
+);
+},
+{
+glyphname = "sa_ta-malayalam";
+lastChange = "2023-02-16 11:03:34 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "sa-malayalam";
+},
+{
+pos = (1092,0);
+ref = "ta-malayalam.below";
+}
+);
+width = 1092;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "sa-malayalam";
+},
+{
+pos = (1242,0);
+ref = "ta-malayalam.below";
+}
+);
+width = 1242;
+}
+);
+},
+{
+glyphname = "sa_na-malayalam";
+lastChange = "2023-02-16 11:03:52 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "sa-malayalam";
+},
+{
+pos = (1092,0);
+ref = "na-malayalam.below";
+}
+);
+width = 1092;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "sa-malayalam";
+},
+{
+pos = (1242,0);
+ref = "na-malayalam.below";
+}
+);
+width = 1242;
+}
+);
+},
+{
+glyphname = "sa_pa-malayalam";
+lastChange = "2023-02-16 11:04:08 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "sa-malayalam";
+},
+{
+pos = (1092,0);
+ref = "pa-malayalam.below";
+}
+);
+width = 1092;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "sa-malayalam";
+},
+{
+pos = (1242,0);
+ref = "pa-malayalam.below";
+}
+);
+width = 1242;
+}
+);
+},
+{
+glyphname = "sa_pha-malayalam";
+lastChange = "2023-02-16 11:04:26 +0000";
+layers = (
+{
+layerId = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
+shapes = (
+{
+ref = "sa-malayalam";
+},
+{
+pos = (1092,0);
+ref = "pha-malayalam.below";
+}
+);
+width = 1092;
+},
+{
+layerId = "EBFFFCD3-BAE4-48A5-9442-B72A90AD34A8";
+shapes = (
+{
+ref = "sa-malayalam";
+},
+{
+pos = (1242,0);
+ref = "pha-malayalam.below";
+}
+);
+width = 1242;
+}
+);
 },
 {
 glyphname = "nChillu_rra-malayalam";
