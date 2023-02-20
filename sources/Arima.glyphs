@@ -61,9 +61,13 @@ value = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 }
 );
-date = "2022-04-22 13:08:16 +0000";
+date = "2023-02-20 13:24:19 +0000";
 familyName = Arima;
 featurePrefixes = (
 {
@@ -322300,5 +322304,5 @@ oV = 150;
 };
 };
 versionMajor = 1;
-versionMinor = 100;
+versionMinor = 101;
 }
