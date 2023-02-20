@@ -61,6 +61,10 @@ value = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "60CFBDE8-BC08-4808-BF41-F011F3E03A54";
 }
 );
 date = "2022-04-22 13:08:16 +0000";
